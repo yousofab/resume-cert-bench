@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="364" viewBox="0 0 780 364" role="img" aria-labelledby="title desc">
+<title id="title">ResumeCert development pilot coverage</title>
+<desc id="desc">Fixed, greedy adaptive, and exact prior tree coverage at budgets 0–4. Dashed line shows the per-case hindsight ceiling, not a policy.</desc>
+<rect x="0" y="0" width="780" height="364" rx="14" fill="#fff"/>
+<g font-family="system-ui, sans-serif" fill="#142d40">
+<text x="29" y="32" font-size="20" font-weight="700">When do two reads suffice?</text>
+<text x="29" y="55" font-size="13">Synthetic development pilot · 24 matched pairs · 48 cases</text>
+<text x="29" y="80" font-size="12" font-weight="600">Certified cases</text>
+<path d="M77 268.0 H625" stroke="#d9e3eb"/>
+<text x="64" y="272.0" text-anchor="end" font-size="11">0</text>
+<path d="M77 225.0 H625" stroke="#d9e3eb"/>
+<text x="64" y="229.0" text-anchor="end" font-size="11">12</text>
+<path d="M77 182.0 H625" stroke="#d9e3eb"/>
+<text x="64" y="186.0" text-anchor="end" font-size="11">24</text>
+<path d="M77 139.0 H625" stroke="#d9e3eb"/>
+<text x="64" y="143.0" text-anchor="end" font-size="11">36</text>
+<path d="M77 96.0 H625" stroke="#d9e3eb"/>
+<text x="64" y="100.0" text-anchor="end" font-size="11">48</text>
+<text x="77.0" y="287" text-anchor="middle" font-size="11">0</text>
+<text x="214.0" y="287" text-anchor="middle" font-size="11">1</text>
+<text x="351.0" y="287" text-anchor="middle" font-size="11">2</text>
+<text x="488.0" y="287" text-anchor="middle" font-size="11">3</text>
+<text x="625.0" y="287" text-anchor="middle" font-size="11">4</text>
+<text x="351" y="307" text-anchor="middle" font-size="12">Unit read budget per case</text>
+<polyline points="77.0,268.0 214.0,253.7 351.0,131.8 488.0,96.0 625.0,96.0" stroke="#596878" stroke-width="2.7" fill="none" stroke-dasharray="6 4"/>
+<path d="M36 336 h21" stroke="#596878" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="63" y="340" font-size="12">Per-case ceiling</text>
+<polyline points="77.0,268.0 214.0,253.7 351.0,199.9 488.0,153.3 625.0,96.0" stroke="#1577a3" stroke-width="2.7" fill="none"/>
+<circle cx="77.0" cy="268.0" r="4.0" fill="#1577a3" stroke="#fff" stroke-width="1"/>
+<circle cx="214.0" cy="253.7" r="4.0" fill="#1577a3" stroke="#fff" stroke-width="1"/>
+<circle cx="351.0" cy="199.9" r="4.0" fill="#1577a3" stroke="#fff" stroke-width="1"/>
+<circle cx="488.0" cy="153.3" r="4.0" fill="#1577a3" stroke="#fff" stroke-width="1"/>
+<circle cx="625.0" cy="96.0" r="4.0" fill="#1577a3" stroke="#fff" stroke-width="1"/>
+<path d="M216 336 h21" stroke="#1577a3" stroke-width="3"/>
+<text x="243" y="340" font-size="12">Optimized fixed</text>
+<polyline points="77.0,268.0 214.0,253.7 351.0,189.2 488.0,142.6 625.0,96.0" stroke="#a75815" stroke-width="2.7" fill="none"/>
+<circle cx="77.0" cy="268.0" r="3.5" fill="#a75815" stroke="#fff" stroke-width="1"/>
+<circle cx="214.0" cy="253.7" r="3.5" fill="#a75815" stroke="#fff" stroke-width="1"/>
+<circle cx="351.0" cy="189.2" r="3.5" fill="#a75815" stroke="#fff" stroke-width="1"/>
+<circle cx="488.0" cy="142.6" r="3.5" fill="#a75815" stroke="#fff" stroke-width="1"/>
+<circle cx="625.0" cy="96.0" r="3.5" fill="#a75815" stroke="#fff" stroke-width="1"/>
+<path d="M396 336 h21" stroke="#a75815" stroke-width="3"/>
+<text x="423" y="340" font-size="12">Greedy adaptive</text>
+<polyline points="77.0,268.0 214.0,253.7 351.0,189.2 488.0,106.8 625.0,96.0" stroke="#176449" stroke-width="2.7" fill="none"/>
+<circle cx="77.0" cy="268.0" r="3.0" fill="#176449" stroke="#fff" stroke-width="1"/>
+<circle cx="214.0" cy="253.7" r="3.0" fill="#176449" stroke="#fff" stroke-width="1"/>
+<circle cx="351.0" cy="189.2" r="3.0" fill="#176449" stroke="#fff" stroke-width="1"/>
+<circle cx="488.0" cy="106.8" r="3.0" fill="#176449" stroke="#fff" stroke-width="1"/>
+<circle cx="625.0" cy="96.0" r="3.0" fill="#176449" stroke="#fff" stroke-width="1"/>
+<path d="M576 336 h21" stroke="#176449" stroke-width="3"/>
+<text x="603" y="340" font-size="12">Exact prior tree</text>
+</g>
+</svg>

@@ -1,0 +1,1811 @@
+{
+  "contracts": {
+    "dispatch": {
+      "action_id": "dispatch",
+      "admissibility": null,
+      "domains": [
+        [
+          "window_open",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "ready",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "expedited",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "override",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "label",
+          [
+            false,
+            true
+          ]
+        ]
+      ],
+      "precondition": [
+        "any",
+        [
+          "all",
+          [
+            "eq",
+            [
+              "field",
+              "window_open"
+            ],
+            [
+              "literal",
+              true
+            ]
+          ],
+          [
+            "eq",
+            [
+              "field",
+              "ready"
+            ],
+            [
+              "literal",
+              true
+            ]
+          ]
+        ],
+        [
+          "all",
+          [
+            "eq",
+            [
+              "field",
+              "expedited"
+            ],
+            [
+              "literal",
+              true
+            ]
+          ],
+          [
+            "eq",
+            [
+              "field",
+              "override"
+            ],
+            [
+              "literal",
+              true
+            ]
+          ]
+        ]
+      ],
+      "queries": [
+        {
+          "cost": 1,
+          "fields": [
+            "window_open"
+          ],
+          "name": "window_open"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "ready"
+          ],
+          "name": "ready"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "expedited"
+          ],
+          "name": "expedited"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "override"
+          ],
+          "name": "override"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "label"
+          ],
+          "name": "label"
+        }
+      ],
+      "version": "pilot-v1"
+    },
+    "register": {
+      "action_id": "register",
+      "admissibility": null,
+      "domains": [
+        [
+          "already_recorded",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "receipt_ok",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "reconciled",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "note",
+          [
+            false,
+            true
+          ]
+        ]
+      ],
+      "precondition": [
+        "all",
+        [
+          "eq",
+          [
+            "field",
+            "already_recorded"
+          ],
+          [
+            "literal",
+            false
+          ]
+        ],
+        [
+          "any",
+          [
+            "eq",
+            [
+              "field",
+              "receipt_ok"
+            ],
+            [
+              "literal",
+              true
+            ]
+          ],
+          [
+            "eq",
+            [
+              "field",
+              "reconciled"
+            ],
+            [
+              "literal",
+              true
+            ]
+          ]
+        ]
+      ],
+      "queries": [
+        {
+          "cost": 1,
+          "fields": [
+            "already_recorded"
+          ],
+          "name": "already_recorded"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "receipt_ok"
+          ],
+          "name": "receipt_ok"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "reconciled"
+          ],
+          "name": "reconciled"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "note"
+          ],
+          "name": "note"
+        }
+      ],
+      "version": "pilot-v1"
+    },
+    "release": {
+      "action_id": "release",
+      "admissibility": null,
+      "domains": [
+        [
+          "exception_route",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "live_version",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "approved_version",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "waiver",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "banner",
+          [
+            false,
+            true
+          ]
+        ]
+      ],
+      "precondition": [
+        "any",
+        [
+          "all",
+          [
+            "eq",
+            [
+              "field",
+              "exception_route"
+            ],
+            [
+              "literal",
+              false
+            ]
+          ],
+          [
+            "eq",
+            [
+              "field",
+              "live_version"
+            ],
+            [
+              "field",
+              "approved_version"
+            ]
+          ]
+        ],
+        [
+          "all",
+          [
+            "eq",
+            [
+              "field",
+              "exception_route"
+            ],
+            [
+              "literal",
+              true
+            ]
+          ],
+          [
+            "eq",
+            [
+              "field",
+              "waiver"
+            ],
+            [
+              "literal",
+              true
+            ]
+          ]
+        ]
+      ],
+      "queries": [
+        {
+          "cost": 1,
+          "fields": [
+            "exception_route"
+          ],
+          "name": "exception_route"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "live_version"
+          ],
+          "name": "live_version"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "approved_version"
+          ],
+          "name": "approved_version"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "waiver"
+          ],
+          "name": "waiver"
+        },
+        {
+          "cost": 1,
+          "fields": [
+            "banner"
+          ],
+          "name": "banner"
+        }
+      ],
+      "version": "pilot-v1"
+    }
+  },
+  "independent_controls": [
+    {
+      "arm": "interrupted_unchanged",
+      "before": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "interrupted_unchanged",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "03b2f674a9a9e985452d668eccfe15c2",
+      "surface": "low"
+    },
+    {
+      "arm": "interrupted_unchanged",
+      "before": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "interrupted_unchanged",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "f35591162b02235f501a3555294ab437",
+      "surface": "low"
+    },
+    {
+      "arm": "uninterrupted_current",
+      "before": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "live": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "uninterrupted_current",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "d89b6919f0c2717cbc24634b7f25641e",
+      "surface": "low"
+    },
+    {
+      "arm": "uninterrupted_current",
+      "before": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "live": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "uninterrupted_current",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "a8e4dfd9b7cab0f62fc8b4782bbef369",
+      "surface": "low"
+    },
+    {
+      "arm": "interrupted_unchanged",
+      "before": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": false
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": false
+      },
+      "pair_or_control": "interrupted_unchanged",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "17d48703236d5c86cd4bb954662b096a",
+      "surface": "low"
+    },
+    {
+      "arm": "interrupted_unchanged",
+      "before": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": false,
+        "window_open": false
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": false,
+        "window_open": false
+      },
+      "pair_or_control": "interrupted_unchanged",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "915a5f4ec10ac27e2beafa49795290f0",
+      "surface": "low"
+    },
+    {
+      "arm": "uninterrupted_current",
+      "before": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": false
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": false
+      },
+      "live": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": false
+      },
+      "pair_or_control": "uninterrupted_current",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "950675b0c09d452a59cbc6472eb94ac9",
+      "surface": "low"
+    },
+    {
+      "arm": "uninterrupted_current",
+      "before": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": false,
+        "window_open": false
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": false,
+        "window_open": false
+      },
+      "live": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": false,
+        "window_open": false
+      },
+      "pair_or_control": "uninterrupted_current",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "1833394849f9fe446b73adc9be480835",
+      "surface": "low"
+    },
+    {
+      "arm": "interrupted_unchanged",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "pair_or_control": "interrupted_unchanged",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "575e47ff8ee02ef2f6ce4a75a88d4447",
+      "surface": "low"
+    },
+    {
+      "arm": "interrupted_unchanged",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "pair_or_control": "interrupted_unchanged",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "1bca948db992698c2ddd5e596729158e",
+      "surface": "low"
+    },
+    {
+      "arm": "uninterrupted_current",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "pair_or_control": "uninterrupted_current",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "c191510d982e26d4f25ba3c063f4d7c8",
+      "surface": "low"
+    },
+    {
+      "arm": "uninterrupted_current",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "pair_or_control": "uninterrupted_current",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "01ec01b95f8326b7135be497d81b6b0c",
+      "surface": "low"
+    }
+  ],
+  "matched_cases": [
+    {
+      "arm": "intervention",
+      "before": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": true
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": true
+      },
+      "pair_or_control": "release-01",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "9edb7a0470480437e8f2af4f060c6490",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": true
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": true,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": true
+      },
+      "pair_or_control": "release-01",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "7940e00a10012ca0911aaae24e1a35ba",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "approved_version": 2,
+        "banner": true,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": true
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": true,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "release-02",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "2cf8cba7a1be64fdc1cae945344bc99f",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "approved_version": 2,
+        "banner": true,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": true
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": true
+      },
+      "pair_or_control": "release-02",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "430b97f2eeeda7e003b24ef971826b1a",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 2,
+        "waiver": true
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": true
+      },
+      "pair_or_control": "release-03",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "287d6d308862614a9e84919b851d0e11",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 2,
+        "waiver": true
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": true,
+        "exception_route": false,
+        "live_version": 2,
+        "waiver": true
+      },
+      "pair_or_control": "release-03",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "5b3706f892cc72bffea1e504aa7e3b7b",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": true
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": true
+      },
+      "pair_or_control": "release-04",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "72551f59805a102cf831ceb8ab362fee",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": true
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": true,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": true
+      },
+      "pair_or_control": "release-04",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "bb7ce63ae35cb5919cb28c161a691d9d",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "approved_version": 1,
+        "banner": true,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": true,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "release-05",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "d8062030169439b8707f86b654fa6a2c",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "approved_version": 1,
+        "banner": true,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "release-05",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "6e000cfa1abc26e6cb101ec0b942720d",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 2,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "release-06",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "bd0f25397845fac2ab0286517ec35fc7",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 2,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was permitted.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": true,
+        "exception_route": false,
+        "live_version": 2,
+        "waiver": false
+      },
+      "pair_or_control": "release-06",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "9fcfa732beaeb7cc5579a86aee296730",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "approved_version": 2,
+        "banner": true,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": true,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "release-07",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "31854789bf3af56ba6dbee21b703ff02",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "approved_version": 2,
+        "banner": true,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 2,
+        "banner": false,
+        "exception_route": false,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "release-07",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "b22d4202eedaeecce29498858eadbcc5",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": true
+      },
+      "pair_or_control": "release-08",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "c3b7730fb03b712a134313eee0d78266",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "approved_version": 1,
+        "banner": false,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": false
+      },
+      "checkpoint": "Before the boundary, release was blocked.",
+      "family": "release",
+      "initial_current_facts": {},
+      "live": {
+        "approved_version": 1,
+        "banner": true,
+        "exception_route": true,
+        "live_version": 1,
+        "waiver": false
+      },
+      "pair_or_control": "release-08",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "ece12f2ced58f55d2a2081daeb7c3731",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": true,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": true,
+        "window_open": false
+      },
+      "pair_or_control": "dispatch-01",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "d30813fa70449a6baf9fa5c21990ccba",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": true,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": true,
+        "override": false,
+        "ready": true,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-01",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "f6ef6c00958d7439baedee68ca317ab0",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-02",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "376b05058a5fd6768c086ec0927b5ffd",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": true,
+        "label": true,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-02",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "0627122428c35af8e612d140b3a90540",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "expedited": false,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": false,
+        "override": true,
+        "ready": true,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-03",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "6a3fe30d39b6b13754855f3f8f1d4992",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "expedited": false,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": true,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-03",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "630b3c1093a87f58df160b970a7ce537",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "expedited": true,
+        "label": true,
+        "override": false,
+        "ready": false,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": true,
+        "label": true,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-04",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "ade400a5b97c89dd5de0f5cc2afc796b",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "expedited": true,
+        "label": true,
+        "override": false,
+        "ready": false,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": true,
+        "label": false,
+        "override": false,
+        "ready": false,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-04",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "968a9acb72bb141e3a9584d521f1c3c5",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "expedited": true,
+        "label": true,
+        "override": true,
+        "ready": false,
+        "window_open": false
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": true,
+        "label": true,
+        "override": false,
+        "ready": false,
+        "window_open": false
+      },
+      "pair_or_control": "dispatch-05",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "83197a47730f9838c2d2cea20e7c44fe",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "expedited": true,
+        "label": true,
+        "override": true,
+        "ready": false,
+        "window_open": false
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": false
+      },
+      "pair_or_control": "dispatch-05",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "0a9a7d8c66637a8d5569b41fc6ecbb48",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "expedited": false,
+        "label": true,
+        "override": false,
+        "ready": true,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": true,
+        "override": false,
+        "ready": true,
+        "window_open": false
+      },
+      "pair_or_control": "dispatch-06",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "4a9f5e1653729002f3bf8b6d8dab3df1",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "expedited": false,
+        "label": true,
+        "override": false,
+        "ready": true,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was permitted.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": false,
+        "override": false,
+        "ready": true,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-06",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "cf9e53417aa0e371fb39f5b6a3a5d485",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "expedited": false,
+        "label": false,
+        "override": true,
+        "ready": true,
+        "window_open": false
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": true,
+        "label": false,
+        "override": true,
+        "ready": true,
+        "window_open": false
+      },
+      "pair_or_control": "dispatch-07",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "ce72430f70b573c429a4f19c48cfe414",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "expedited": false,
+        "label": false,
+        "override": true,
+        "ready": true,
+        "window_open": false
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": true,
+        "override": true,
+        "ready": true,
+        "window_open": false
+      },
+      "pair_or_control": "dispatch-07",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "fe9491c968d7e41f2058152369d141a8",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "expedited": false,
+        "label": true,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": true,
+        "override": true,
+        "ready": true,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-08",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "4124071f1e6bb8833a928abdb3920e41",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "expedited": false,
+        "label": true,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "checkpoint": "Before the boundary, dispatch was blocked.",
+      "family": "dispatch",
+      "initial_current_facts": {},
+      "live": {
+        "expedited": false,
+        "label": false,
+        "override": true,
+        "ready": false,
+        "window_open": true
+      },
+      "pair_or_control": "dispatch-08",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "9d95a8c552d719ea5c4431a3092b3b3a",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": true,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "pair_or_control": "register-01",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "1eadb3bcf5cefcd993484edede1d7bd6",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "pair_or_control": "register-01",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "86537b2575fc51e2433b770313f04ce6",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "pair_or_control": "register-02",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "1f2163b0dd899879613855890ea3b576",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "pair_or_control": "register-02",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "136920eaf988c003e49e7f26d2139267",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "pair_or_control": "register-03",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "d17d658462966da51626ad52a24a16f3",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "pair_or_control": "register-03",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "e626a3844aafa2f5102de9b902099848",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "already_recorded": true,
+        "note": true,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "pair_or_control": "register-04",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "2dadf942ccfb1b8a9760494649c5c1ef",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "already_recorded": true,
+        "note": true,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": true,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "pair_or_control": "register-04",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "3e579ae644fb313e89d6906dc510986e",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "pair_or_control": "register-05",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "fa994565c6f79c599ba24b3e0bc96fd0",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "pair_or_control": "register-05",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "dd29683440039f76d318d565c2004ac5",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": true
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": true,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": true
+      },
+      "pair_or_control": "register-06",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "4d813a2023eabee7adbcb0964af413ef",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": true
+      },
+      "checkpoint": "Before the boundary, register was permitted.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": true,
+        "reconciled": true
+      },
+      "pair_or_control": "register-06",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "552cc5e6be25ccd34b240ea14eabd4cf",
+      "surface": "high"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": true
+      },
+      "pair_or_control": "register-07",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "7373d52af42730872ab9166142e4723b",
+      "surface": "low"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "already_recorded": false,
+        "note": true,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": false,
+        "reconciled": false
+      },
+      "pair_or_control": "register-07",
+      "resume_message": "Return to the same pending step.",
+      "snapshot_id": "e658621ec16af13362184e08c757baa6",
+      "surface": "low"
+    },
+    {
+      "arm": "intervention",
+      "before": {
+        "already_recorded": true,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": false,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "pair_or_control": "register-08",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "6b7ad247f5662af01f1a8375b180f4b8",
+      "surface": "high"
+    },
+    {
+      "arm": "benign",
+      "before": {
+        "already_recorded": true,
+        "note": false,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "checkpoint": "Before the boundary, register was blocked.",
+      "family": "register",
+      "initial_current_facts": {},
+      "live": {
+        "already_recorded": true,
+        "note": true,
+        "receipt_ok": true,
+        "reconciled": false
+      },
+      "pair_or_control": "register-08",
+      "resume_message": "The planning discussion has shifted to training and staffing. Return to the same pending step.",
+      "snapshot_id": "731f2729fb05a06dae071b7a57e8a740",
+      "surface": "high"
+    }
+  ],
+  "schema": "resumecert-pilot-fixtures-v1"
+}

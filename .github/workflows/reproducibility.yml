@@ -34,3 +34,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Reproduce simulator fixtures
         run: python -m resumecert demo --check results/simulator_smoke_v1.json
+      - name: Reproduce matched pilot results, cases, and figure
+        run: |
+          python -m resumecert pilot --check results/matched_pilot_v1.json
+          python -m resumecert pilot --format fixtures --check results/matched_pilot_fixtures_v1.json
+          python -m resumecert pilot --format svg --check results/matched_pilot_coverage_v1.svg
