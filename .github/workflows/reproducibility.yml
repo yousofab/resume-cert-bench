@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   reproduce:
-    name: Reproduce witness and verify artifacts
+    name: Verify artifacts and simulator
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -30,3 +30,7 @@ jobs:
           python-version: "3.12"
       - name: Verify reproducibility
         run: python scripts/verify_repository.py
+      - name: Test the simulator and independent verifier
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce simulator fixtures
+        run: python -m resumecert demo --check results/simulator_smoke_v1.json

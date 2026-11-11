@@ -1,0 +1,104 @@
+{
+  "document_release": {
+    "contradictory_observations": {
+      "against_corrupted_audit": {
+        "accepted": false,
+        "reason": "invalid_audit_read"
+      },
+      "against_trusted_audit": {
+        "accepted": false,
+        "reason": "transcript_mismatch"
+      },
+      "compatible_worlds": 0,
+      "decision": "inconsistent",
+      "spent": 2
+    },
+    "insufficient_budget": {
+      "compatible_worlds": 2,
+      "decision": "defer",
+      "spent": 1,
+      "verified": true
+    },
+    "matching_version": {
+      "compatible_worlds": 1,
+      "decision": "allow",
+      "spent": 2,
+      "verified": true
+    },
+    "stale_approval": {
+      "compatible_worlds": 1,
+      "decision": "block",
+      "spent": 2,
+      "verified": true
+    }
+  },
+  "schema": "resumecert-simulator-smoke-v1",
+  "scope": "constructed engineering fixtures; no matched pilot, model, or real workflow",
+  "witness": {
+    "matches_standalone_proof": true,
+    "possible_worlds": 8,
+    "rows": [
+      {
+        "adaptive": {
+          "allow": 0,
+          "block": 0,
+          "defer": 8,
+          "total_cost": 0
+        },
+        "fixed": {
+          "allow": 0,
+          "block": 0,
+          "defer": 8,
+          "total_cost": 0
+        },
+        "unit_read_budget": 0
+      },
+      {
+        "adaptive": {
+          "allow": 0,
+          "block": 0,
+          "defer": 8,
+          "total_cost": 8
+        },
+        "fixed": {
+          "allow": 0,
+          "block": 0,
+          "defer": 8,
+          "total_cost": 8
+        },
+        "unit_read_budget": 1
+      },
+      {
+        "adaptive": {
+          "allow": 4,
+          "block": 4,
+          "defer": 0,
+          "total_cost": 16
+        },
+        "fixed": {
+          "allow": 2,
+          "block": 2,
+          "defer": 4,
+          "total_cost": 16
+        },
+        "unit_read_budget": 2
+      },
+      {
+        "adaptive": {
+          "allow": 4,
+          "block": 4,
+          "defer": 0,
+          "total_cost": 16
+        },
+        "fixed": {
+          "allow": 4,
+          "block": 4,
+          "defer": 0,
+          "total_cost": 20
+        },
+        "unit_read_budget": 3
+      }
+    ],
+    "verified_runs": 64
+  }
+}

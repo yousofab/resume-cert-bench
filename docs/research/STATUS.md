@@ -5,12 +5,12 @@
 - The Persian research proposal in PDF and editable DOCX.
 - The literature matrix and protocol that informed the proposal.
 - A deterministic witness over eight constructed states, with its output and a verification command.
+- [Simulator v1](SIMULATOR_V1.md): budgeted reads over fixed snapshots and independent verification. The [recorded fixtures](../../results/simulator_smoke_v1.json) match the standalone witness across 64 verified runs and cover allow, block, defer, and contradictory evidence.
 
 ## Planned study
 
 | Stage | Work | Exit criterion |
 | --- | --- | --- |
-| Simulator | Action contract, fixed live snapshot, budgeted observations, separate verifier | Reproduce the witness and exercise allow, block, defer, and inconsistent evidence |
 | Pilot | 24 matched pairs across three development families, plus independent controls | Check matching, answer leakage, and baseline budgets |
 | Freeze | Lock contracts, policy settings, primary budgets, baselines, and held-out split | Record the versions and artifact digests before evaluation |
 | Confirmatory study | 48 matched pairs across two held-out families | Report coverage, error denominators, read cost, and failure categories |
