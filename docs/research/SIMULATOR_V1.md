@@ -61,4 +61,4 @@ The two policies were run on each of eight worlds at each of four budgets. The i
 
 The version fixture allows an approved version, blocks a later version with stale approval, and defers when there is budget to see only one of the two values. In an injected contradiction, the inference layer reports zero compatible worlds; the verifier rejects the contradictory transcript against the trusted ledger and rejects a ledger whose observation disagrees with its snapshot. A stable authentic snapshot cannot produce that contradiction.
 
-These are deterministic engineering checks. The development pilot is still pending. Its exit criteria include matching and leakage audits, independent controls, and verified baseline budgets. The simulator outputs do not establish a general benefit of adaptivity.
+These are deterministic engineering checks. The [development pilot](MATCHED_PILOT_V1.md) is reported separately, with matching and leakage audits, independent controls, and verified baseline budgets. The simulator outputs do not establish a general benefit of adaptivity.
