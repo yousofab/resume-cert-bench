@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use the ResumeCert protocol or witness, cite this repository."
+title: "ResumeCert: Budgeted Evidence for Workflow Resumption after External State Changes"
+type: software
+authors:
+  - given-names: Yousef
+    family-names: Abolfathi Roozbahani
+repository-code: "https://github.com/yousofab/resume-cert-bench"
+keywords:
+  - workflow resumption
+  - agentic AI
+  - budgeted observation
+  - evidence certificate
+  - reproducible research

@@ -1,0 +1,54 @@
+{
+  "scope": "exhaustive constructed counterexample; no model or real-world data",
+  "possible_worlds": 8,
+  "unit_reads_per_field": 1,
+  "table": [
+    {
+      "unit_read_budget": 0,
+      "best_fixed_certified": 0,
+      "best_adaptive_certified": 0,
+      "adaptive_first_read": null
+    },
+    {
+      "unit_read_budget": 1,
+      "best_fixed_certified": 0,
+      "best_adaptive_certified": 0,
+      "adaptive_first_read": null
+    },
+    {
+      "unit_read_budget": 2,
+      "best_fixed_certified": 4,
+      "best_adaptive_certified": 8,
+      "adaptive_first_read": "route"
+    },
+    {
+      "unit_read_budget": 3,
+      "best_fixed_certified": 8,
+      "best_adaptive_certified": 8,
+      "adaptive_first_read": "route"
+    }
+  ],
+  "twin_worlds": {
+    "fields": [
+      "route",
+      "normal_approval",
+      "exception_approval"
+    ],
+    "a": [
+      0,
+      1,
+      0
+    ],
+    "b": [
+      1,
+      1,
+      0
+    ],
+    "visible_if_only_approvals_read": [
+      1,
+      0
+    ],
+    "permit_a": 1,
+    "permit_b": 0
+  }
+}
