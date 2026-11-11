@@ -1,0 +1,59 @@
+{
+  "schema": "resumecert-confirmatory-plan-v1",
+  "design_seed": "resumecert-confirmatory-v1:255a5d8d6ebdeb3b0bad5a9fb9aae0efcfefbc22",
+  "runtime": "CPython 3.12; standard library",
+  "split": {
+    "development": ["release", "dispatch", "register"],
+    "held_out": ["quorum_release", "capacity_reservation"],
+    "pairs_per_family": 24,
+    "pairs_per_surface_and_previous_truth_cell": 6,
+    "arms": ["pivotal", "benign"],
+    "controls_per_family": 4
+  },
+  "primary": {
+    "budget": 2,
+    "cost_model": "one unit per single-field query",
+    "policy_a": "adaptive",
+    "policy_f": "fixed",
+    "numerator": "certified_a_only - certified_f_only",
+    "denominator": 96,
+    "strata": ["quorum_release", "capacity_reservation"],
+    "decision_rule": "positive in both families: consistent support on this suite; positive pooled but nonpositive in at least one family: mixed; nonpositive pooled: no pooled gain",
+    "uncertainty": "descriptive finite-suite contrasts only; no population p-values or confidence intervals"
+  },
+  "secondary": {
+    "budgets": [0, 1, 2, 3, 4],
+    "policies": ["checkpoint", "defer", "random", "fixed", "adaptive", "optimal_tree"],
+    "controls_budgets": [0, 2],
+    "full_read": "once per primary snapshot, outside the equal-budget comparison",
+    "sensitivity": [
+      {
+        "name": "grouped",
+        "budget": 2,
+        "policies": ["fixed", "adaptive", "optimal_tree"],
+        "query_cost": 1
+      },
+      {
+        "name": "unequal",
+        "budget": 2,
+        "policies": ["fixed", "adaptive", "optimal_tree"],
+        "query_cost": 2
+      }
+    ],
+    "diagnostics": ["accepted allow/block", "paired discordance", "pairs fully certified", "raw false allow/block", "verifier rejection", "verified defer of allowed case", "spent units", "zero-world-reduction reads", "case-specific hindsight floor", "uniform-prior exact tree"]
+  },
+  "expected_cells": {
+    "primary_contrast": 192,
+    "primary_regime_grid": 2880,
+    "controls": 96,
+    "grouped": 288,
+    "unequal": 288,
+    "full_read": 96,
+    "total": 3648
+  },
+  "execution": {
+    "stop": "one complete, audited sweep; no adaptive exclusions or sample size updates",
+    "integrity": "abort the entire sweep on a fixture or engine error, missing or duplicate cell, or invalid audit from a read-based policy; record the deviation, preserve the failed attempt, and rerun only from a documented revision",
+    "amendments": "new commit with rationale before viewing affected outcomes; after viewing outcomes report changed analyses as exploratory"
+  }
+}

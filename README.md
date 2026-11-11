@@ -17,7 +17,8 @@ For example, a document may have a recorded approval but a newer version than th
 | [Exhaustive eight-state witness](proof/witness.py) | Reproducible |
 | [Simulator and independent verifier](docs/research/SIMULATOR_V1.md) | Available; [64 witness runs and decision fixtures](results/simulator_smoke_v1.json) reproduced |
 | [Matched development pilot](docs/research/MATCHED_PILOT_V1.md) | Available; 24 pairs, three synthetic families, and 12 controls |
-| Held-out confirmatory comparison | Planned |
+| [Confirmatory protocol and freeze](docs/research/CONFIRMATORY_PROTOCOL_V1.md) | Recorded before evaluation; 48 pairs in two new families |
+| Held-out confirmatory comparison | Not run |
 
 The witness uses three Boolean fields and eight constructed states. With two unit-cost reads, the best fixed field set certifies **4 of 8** states; an adaptive tree that reads the active route and then the corresponding approval certifies **8 of 8**. This is an exact result for the constructed example. No LLM or real workflow was evaluated.
 
@@ -37,12 +38,13 @@ python scripts/verify_repository.py
 python -m unittest discover -s tests -v
 python -m resumecert demo --check results/simulator_smoke_v1.json
 python -m resumecert pilot --check results/matched_pilot_v1.json
+python scripts/verify_freeze.py
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.
 
 ## Next milestone
 
-Freeze the confirmatory protocol and two unused families before running the held-out comparison. The development cases and results remain visible for replication. See the [research status and roadmap](docs/research/STATUS.md).
+Execute the frozen confirmatory protocol and report coverage, read cost, and failure categories in both held-out families. See the [research status and roadmap](docs/research/STATUS.md).
 
 To cite this repository, use [CITATION.cff](CITATION.cff). The institutional marks are displayed in the [acknowledgments](docs/ACKNOWLEDGMENTS.md) for educational context.
