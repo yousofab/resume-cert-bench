@@ -1,0 +1,77 @@
+{
+  "design_audit": {
+    "contracts": {
+      "capacity_reservation": {
+        "grouped": "9380581293e6664b37589ac6ec143748c38b6dde31f62037675162158d543633",
+        "primary": "d08d4f00f76ff7ffeabec25e38b499a9ec4f69d30267df61f2818a1b987a876f",
+        "unequal": "610f692cba760c7a56b73cc95dfe45ed6b1fa80fe22524ea8f4ffd1f4c8872fa"
+      },
+      "quorum_release": {
+        "grouped": "4bda141c9311eba3555c51c5a6f1ca3fe6ab67a2dcc2e1196a36f8fe5cdd8622",
+        "primary": "214b0d8b9e24087750ba0e1cecde033dec8613786b6623892bab00cbcd3806b3",
+        "unequal": "dc43cf89b24ca3be1edec4f872033af39e5b9f4e9f40252fd40eee9eac1ec298"
+      }
+    },
+    "controls": 8,
+    "families": {
+      "capacity_reservation": {
+        "admissible_worlds_checked": 168,
+        "controls": 4,
+        "pairs": 24,
+        "pivotal_field_counts": {
+          "capacity": 5,
+          "committed": 5,
+          "request_size": 6,
+          "service_open": 8
+        },
+        "previous_truth_and_surface": {
+          "high:0": 6,
+          "high:1": 6,
+          "low:0": 6,
+          "low:1": 6
+        }
+      },
+      "quorum_release": {
+        "admissible_worlds_checked": 128,
+        "controls": 4,
+        "pairs": 24,
+        "pivotal_field_counts": {
+          "required_yes": 5,
+          "vote_a": 5,
+          "vote_b": 5,
+          "vote_c": 5,
+          "vote_d": 4
+        },
+        "previous_truth_and_surface": {
+          "high:0": 6,
+          "high:1": 6,
+          "low:0": 6,
+          "low:1": 6
+        }
+      }
+    },
+    "fixture_sha256": "407fec0da90a81a663528e79193566950482c4bbbba062d3475e9e23a992e382",
+    "primary_cases": 96
+  },
+  "development_base_commit": "255a5d8d6ebdeb3b0bad5a9fb9aae0efcfefbc22",
+  "schema": "resumecert-confirmatory-freeze-v1",
+  "sha256": {
+    "docs/research/CONFIRMATORY_PROTOCOL_V1.md": "7b2b8f2c04699db64e05996d87f62d404bf0437f42ff3847cc6e79ef623d6272",
+    "docs/research/CONFIRMATORY_PROTOCOL_V1_FA.md": "559e69cccf107c030a5283fd57cce97054d9ee97f0ccb8c25aa944f78c39bf45",
+    "results/matched_pilot_fixtures_v1.json": "a3e5fd69c5e3748a25f00a15daf48f352efa356f90f717e9aeb1ef16b478cc7e",
+    "results/matched_pilot_v1.json": "0046d8ff57e56ea2e88e052566452b9e976c055f439f94c34014404b6d9023ce",
+    "resumecert/__init__.py": "9f37a1f5e47c70130aa1378f5a08f74ffe143828dcf757051be0d1176b788f70",
+    "resumecert/confirmatory/__init__.py": "e2a63b75e87e3b8650b2c29e2bbfc4b389fb7133cdc093f51ba1ae05e59525cf",
+    "resumecert/confirmatory/design.py": "874f10e36ab611e296aa7734cfe576349481025e724aaefd7b4fcbd161effba2",
+    "resumecert/confirmatory/scoring.py": "3e0f1bbb58f7d8749b5a277dfccce9ef6ab4cb51d8c08da4768c93d0e6eb7aa1",
+    "resumecert/contract.py": "e26daf90b937332f329a96470a132043022c3c7690e8297ec57b3763d79c6125",
+    "resumecert/inference.py": "f09a9af38109f4955dcb0dc2d7f25e48aceb60cf78cadd19587feaa7559d0028",
+    "resumecert/pilot/__init__.py": "44683d73c6cb4dadc982a18da8390c00e37115506c3fc521949fa825edea1fee",
+    "resumecert/pilot/policies.py": "d00acdd6aec832142d5ea6e97b448ea95592c6c9d9f797fc9ae289bc61925674",
+    "resumecert/records.py": "e493edda5a118bee74c4592165171d7e552854ceada69829d665d01b8ba29eba",
+    "resumecert/simulator.py": "0d9e75004292275a3e6e0fd5540e6b2a25abd5b892bb64156c2bb4b82b4053bb",
+    "resumecert/verifier.py": "6a545cc0e3ed685cf1d3176215ac3f21c3aa900a7d2b17b5195492bb9a5f0e66",
+    "scripts/verify_freeze.py": "311e9499fa391c3bcb6c55c945e9f707ed341670210f1e2da2f53a384f5b8bf2",
+    "study/confirmatory-v1/plan.json": "441f203cc9e28a40dba9731c207ca5d64c6d047686b441c334f591015649a7d6"
+  }
+}

@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   reproduce:
-    name: Verify artifacts and simulator
+    name: Verify artifacts, simulator, and research freeze
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -39,3 +39,5 @@ jobs:
           python -m resumecert pilot --check results/matched_pilot_v1.json
           python -m resumecert pilot --format fixtures --check results/matched_pilot_fixtures_v1.json
           python -m resumecert pilot --format svg --check results/matched_pilot_coverage_v1.svg
+      - name: Verify confirmatory protocol and case commitments
+        run: python scripts/verify_freeze.py
