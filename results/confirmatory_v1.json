@@ -1,0 +1,5998 @@
+{
+  "budget_grid": {
+    "0": {
+      "adaptive": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 0,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 96,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      },
+      "checkpoint": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 0,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 96,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 24,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "raw_false_block": 24,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "reads": 0,
+        "rejected_claims": 96,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 96
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 0,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 96,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      },
+      "fixed": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 0,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 96,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      },
+      "optimal_tree": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 0,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 96,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      },
+      "random": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 0,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 96,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      }
+    },
+    "1": {
+      "adaptive": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 1,
+        "affordable_verified_deferrals": 1,
+        "certified_allow": 0,
+        "certified_block": 8,
+        "floor_above_budget": 87,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 88
+      },
+      "checkpoint": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 9,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 87,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 24,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "raw_false_block": 24,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "reads": 0,
+        "rejected_claims": 96,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 96
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 9,
+        "affordable_verified_deferrals": 9,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 87,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      },
+      "fixed": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 1,
+        "affordable_verified_deferrals": 1,
+        "certified_allow": 0,
+        "certified_block": 8,
+        "floor_above_budget": 87,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 88
+      },
+      "optimal_tree": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 1,
+        "affordable_verified_deferrals": 1,
+        "certified_allow": 0,
+        "certified_block": 8,
+        "floor_above_budget": 87,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 48,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 48,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 48
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 88
+      },
+      "random": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 9,
+        "affordable_verified_deferrals": 9,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 87,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      }
+    },
+    "2": {
+      "adaptive": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 14,
+        "affordable_verified_deferrals": 14,
+        "certified_allow": 1,
+        "certified_block": 10,
+        "floor_above_budget": 71,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 184,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 184,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 184
+        },
+        "verified_deferral_of_allowed": 47,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 47
+        },
+        "verified_deferrals": 85
+      },
+      "checkpoint": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 25,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 71,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 24,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "raw_false_block": 24,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "reads": 0,
+        "rejected_claims": 96,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 96
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 25,
+        "affordable_verified_deferrals": 25,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 71,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      },
+      "fixed": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 14,
+        "affordable_verified_deferrals": 14,
+        "certified_allow": 1,
+        "certified_block": 10,
+        "floor_above_budget": 71,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 184,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 184,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 184
+        },
+        "verified_deferral_of_allowed": 47,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 47
+        },
+        "verified_deferrals": 85
+      },
+      "optimal_tree": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 13,
+        "affordable_verified_deferrals": 13,
+        "certified_allow": 1,
+        "certified_block": 11,
+        "floor_above_budget": 71,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 157,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 157,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 157
+        },
+        "verified_deferral_of_allowed": 47,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 47
+        },
+        "verified_deferrals": 84
+      },
+      "random": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 22,
+        "affordable_verified_deferrals": 22,
+        "certified_allow": 0,
+        "certified_block": 3,
+        "floor_above_budget": 71,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 192,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 192,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 192
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 93
+      }
+    },
+    "3": {
+      "adaptive": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 30,
+        "affordable_verified_deferrals": 30,
+        "certified_allow": 14,
+        "certified_block": 17,
+        "floor_above_budget": 35,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 6,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 269,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 269,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 269
+        },
+        "verified_deferral_of_allowed": 34,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 34
+        },
+        "verified_deferrals": 65
+      },
+      "checkpoint": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 61,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 35,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 24,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "raw_false_block": 24,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "reads": 0,
+        "rejected_claims": 96,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 96
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 61,
+        "affordable_verified_deferrals": 61,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 35,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      },
+      "fixed": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 31,
+        "affordable_verified_deferrals": 31,
+        "certified_allow": 14,
+        "certified_block": 16,
+        "floor_above_budget": 35,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 6,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 269,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 269,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 269
+        },
+        "verified_deferral_of_allowed": 34,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 34
+        },
+        "verified_deferrals": 66
+      },
+      "optimal_tree": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 24,
+        "affordable_verified_deferrals": 24,
+        "certified_allow": 14,
+        "certified_block": 23,
+        "floor_above_budget": 35,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 6,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 261,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 261,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 261
+        },
+        "verified_deferral_of_allowed": 34,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 34
+        },
+        "verified_deferrals": 59
+      },
+      "random": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 51,
+        "affordable_verified_deferrals": 51,
+        "certified_allow": 1,
+        "certified_block": 9,
+        "floor_above_budget": 35,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 285,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 285,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 285
+        },
+        "verified_deferral_of_allowed": 47,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 47
+        },
+        "verified_deferrals": 86
+      }
+    },
+    "4": {
+      "adaptive": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 28,
+        "affordable_verified_deferrals": 28,
+        "certified_allow": 34,
+        "certified_block": 34,
+        "floor_above_budget": 0,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 24,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 334,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 334,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 334
+        },
+        "verified_deferral_of_allowed": 14,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 14
+        },
+        "verified_deferrals": 28
+      },
+      "checkpoint": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 96,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 0,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 24,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "raw_false_block": 24,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 24
+        },
+        "reads": 0,
+        "rejected_claims": 96,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 96
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 96,
+        "affordable_verified_deferrals": 96,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 0,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 48,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "verified_deferrals": 96
+      },
+      "fixed": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 28,
+        "affordable_verified_deferrals": 28,
+        "certified_allow": 34,
+        "certified_block": 34,
+        "floor_above_budget": 0,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 24,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 335,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 335,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 335
+        },
+        "verified_deferral_of_allowed": 14,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 14
+        },
+        "verified_deferrals": 28
+      },
+      "optimal_tree": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 28,
+        "affordable_verified_deferrals": 28,
+        "certified_allow": 34,
+        "certified_block": 34,
+        "floor_above_budget": 0,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 24,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 334,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 334,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 334
+        },
+        "verified_deferral_of_allowed": 14,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 14
+        },
+        "verified_deferrals": 28
+      },
+      "random": {
+        "actually_allowed": 48,
+        "actually_blocked": 48,
+        "affordable_but_uncertified": 69,
+        "affordable_verified_deferrals": 69,
+        "certified_allow": 10,
+        "certified_block": 17,
+        "floor_above_budget": 0,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 16,
+          "3": 36,
+          "4": 35
+        },
+        "n": 96,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 7,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "reads": 371,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 96,
+          "numerator": 0
+        },
+        "spent_units": 371,
+        "spent_units_per_case": {
+          "denominator": 96,
+          "numerator": 371
+        },
+        "verified_deferral_of_allowed": 38,
+        "verified_deferral_per_allowed": {
+          "denominator": 48,
+          "numerator": 38
+        },
+        "verified_deferrals": 69
+      }
+    }
+  },
+  "controls": {
+    "interrupted_unchanged": {
+      "0": {
+        "adaptive": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 4,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 4
+        },
+        "checkpoint": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 4,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 4,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 4
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "defer": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 4,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 4
+        },
+        "fixed": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 4,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 4
+        },
+        "optimal_tree": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 4,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 4
+        },
+        "random": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 4,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 4
+        }
+      },
+      "2": {
+        "adaptive": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 1,
+          "floor_above_budget": 3,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 7,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 7,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 7
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 3
+        },
+        "checkpoint": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 1,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 3,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 4,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 4
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "defer": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 1,
+          "affordable_verified_deferrals": 1,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 3,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 4
+        },
+        "fixed": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 1,
+          "floor_above_budget": 3,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 7,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 7,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 7
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 3
+        },
+        "optimal_tree": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 1,
+          "floor_above_budget": 3,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 6,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 6,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 6
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 3
+        },
+        "random": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 1,
+          "affordable_verified_deferrals": 1,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 3,
+          "hindsight_floor_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 8,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 8,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 8
+          },
+          "verified_deferral_of_allowed": 2,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 2
+          },
+          "verified_deferrals": 4
+        }
+      }
+    },
+    "uninterrupted_current": {
+      "0": {
+        "adaptive": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "checkpoint": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "defer": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 4,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 4
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "fixed": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "optimal_tree": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "random": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        }
+      },
+      "2": {
+        "adaptive": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "checkpoint": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "defer": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 4,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 4
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "fixed": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "optimal_tree": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        },
+        "random": {
+          "actually_allowed": 2,
+          "actually_blocked": 2,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 2,
+          "certified_block": 2,
+          "floor_above_budget": 0,
+          "hindsight_floor_histogram": {
+            "0": 4
+          },
+          "n": 4,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": null,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 4,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 0,
+          "verified_deferral_per_allowed": {
+            "denominator": 2,
+            "numerator": 0
+          },
+          "verified_deferrals": 0
+        }
+      }
+    }
+  },
+  "design": {
+    "cells": {
+      "controls": 96,
+      "full_read": 96,
+      "grouped": 288,
+      "primary_contrast": 192,
+      "primary_regime_grid": 2880,
+      "total": 3648,
+      "unequal": 288
+    },
+    "controls": 8,
+    "pairs": 48,
+    "snapshots": 96,
+    "trace_sha256_uncompressed": "d01e8e891a0e9543548cc3be08b8356faea67ca0f11623cb7777a32c961be903"
+  },
+  "freeze": {
+    "commit": "09b77a40880045f6c8f85d0ddf90c241635d7a61",
+    "fixture_sha256": "407fec0da90a81a663528e79193566950482c4bbbba062d3475e9e23a992e382",
+    "manifest_sha256": "e2337c52ffb0aa7f2b7703ea22fe8b3baa385db163846aaa69e8616ead012a4c",
+    "pinned_artifacts": 17
+  },
+  "full_read": {
+    "families": {
+      "capacity_reservation": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 0,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 24,
+        "certified_block": 24,
+        "floor_above_budget": 0,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 7,
+          "3": 20,
+          "4": 12
+        },
+        "n": 48,
+        "noninformative_reads": 1,
+        "pairs_fully_certified": 24,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 240,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 240,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 240
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "quorum_release": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 0,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 24,
+        "certified_block": 24,
+        "floor_above_budget": 0,
+        "hindsight_floor_histogram": {
+          "2": 9,
+          "3": 16,
+          "4": 23
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 24,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 288,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 288,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 288
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      }
+    },
+    "pooled": {
+      "actually_allowed": 48,
+      "actually_blocked": 48,
+      "affordable_but_uncertified": 0,
+      "affordable_verified_deferrals": 0,
+      "certified_allow": 48,
+      "certified_block": 48,
+      "floor_above_budget": 0,
+      "hindsight_floor_histogram": {
+        "1": 9,
+        "2": 16,
+        "3": 36,
+        "4": 35
+      },
+      "n": 96,
+      "noninformative_reads": 1,
+      "pairs_fully_certified": 48,
+      "raw_false_allow": 0,
+      "raw_false_allow_per_blocked": {
+        "denominator": 48,
+        "numerator": 0
+      },
+      "raw_false_allow_per_case": {
+        "denominator": 96,
+        "numerator": 0
+      },
+      "raw_false_block": 0,
+      "raw_false_block_per_allowed": {
+        "denominator": 48,
+        "numerator": 0
+      },
+      "raw_false_block_per_case": {
+        "denominator": 96,
+        "numerator": 0
+      },
+      "reads": 528,
+      "rejected_claims": 0,
+      "rejected_per_submitted": {
+        "denominator": 96,
+        "numerator": 0
+      },
+      "spent_units": 528,
+      "spent_units_per_case": {
+        "denominator": 96,
+        "numerator": 528
+      },
+      "verified_deferral_of_allowed": 0,
+      "verified_deferral_per_allowed": {
+        "denominator": 48,
+        "numerator": 0
+      },
+      "verified_deferrals": 0
+    }
+  },
+  "primary": {
+    "families": {
+      "capacity_reservation": {
+        "cases": 48,
+        "certified": {
+          "adaptive": {
+            "allow": 0,
+            "block": 9
+          },
+          "fixed": {
+            "allow": 0,
+            "block": 9
+          }
+        },
+        "delta_denominator": 48,
+        "delta_numerator": 0,
+        "discordance": {
+          "a_only": 0,
+          "both": 9,
+          "f_only": 0,
+          "neither": 39
+        },
+        "pairs": 24,
+        "pairs_fully_certified": {
+          "adaptive": 0,
+          "fixed": 0
+        },
+        "read_units": {
+          "adaptive": 88,
+          "fixed": 88
+        }
+      },
+      "quorum_release": {
+        "cases": 48,
+        "certified": {
+          "adaptive": {
+            "allow": 1,
+            "block": 1
+          },
+          "fixed": {
+            "allow": 1,
+            "block": 1
+          }
+        },
+        "delta_denominator": 48,
+        "delta_numerator": 0,
+        "discordance": {
+          "a_only": 0,
+          "both": 2,
+          "f_only": 0,
+          "neither": 46
+        },
+        "pairs": 24,
+        "pairs_fully_certified": {
+          "adaptive": 0,
+          "fixed": 0
+        },
+        "read_units": {
+          "adaptive": 96,
+          "fixed": 96
+        }
+      }
+    },
+    "interpretation": "no_pooled_gain",
+    "pooled": {
+      "cases": 96,
+      "certified": {
+        "adaptive": {
+          "allow": 1,
+          "block": 10
+        },
+        "fixed": {
+          "allow": 1,
+          "block": 10
+        }
+      },
+      "delta_denominator": 96,
+      "delta_numerator": 0,
+      "discordance": {
+        "a_only": 0,
+        "both": 11,
+        "f_only": 0,
+        "neither": 85
+      },
+      "pairs": 48,
+      "pairs_fully_certified": {
+        "adaptive": 0,
+        "fixed": 0
+      },
+      "read_units": {
+        "adaptive": 184,
+        "fixed": 184
+      }
+    }
+  },
+  "primary_budget_by_arm": {
+    "benign": {
+      "adaptive": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 8,
+        "affordable_verified_deferrals": 8,
+        "certified_allow": 1,
+        "certified_block": 6,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 91,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 91,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 91
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 41
+      },
+      "checkpoint": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 15,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 48,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 15,
+        "affordable_verified_deferrals": 15,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 48
+      },
+      "fixed": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 8,
+        "affordable_verified_deferrals": 8,
+        "certified_allow": 1,
+        "certified_block": 6,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 91,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 91,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 91
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 41
+      },
+      "optimal_tree": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 8,
+        "affordable_verified_deferrals": 8,
+        "certified_allow": 1,
+        "certified_block": 6,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 79,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 79,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 79
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 41
+      },
+      "random": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 14,
+        "affordable_verified_deferrals": 14,
+        "certified_allow": 0,
+        "certified_block": 1,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 47
+      }
+    },
+    "pivotal": {
+      "adaptive": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 6,
+        "affordable_verified_deferrals": 6,
+        "certified_allow": 0,
+        "certified_block": 4,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 93,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 93,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 93
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 44
+      },
+      "checkpoint": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 10,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 24,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "raw_false_block": 24,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 24
+        },
+        "reads": 0,
+        "rejected_claims": 48,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 10,
+        "affordable_verified_deferrals": 10,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 48
+      },
+      "fixed": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 6,
+        "affordable_verified_deferrals": 6,
+        "certified_allow": 0,
+        "certified_block": 4,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 93,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 93,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 93
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 44
+      },
+      "optimal_tree": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 5,
+        "affordable_verified_deferrals": 5,
+        "certified_allow": 0,
+        "certified_block": 5,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 78,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 78,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 78
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 43
+      },
+      "random": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 8,
+        "affordable_verified_deferrals": 8,
+        "certified_allow": 0,
+        "certified_block": 2,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": null,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 46
+      }
+    }
+  },
+  "primary_budget_by_family": {
+    "capacity_reservation": {
+      "adaptive": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 0,
+        "certified_block": 9,
+        "floor_above_budget": 32,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 7,
+          "3": 20,
+          "4": 12
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 88,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 88,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 88
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 39
+      },
+      "checkpoint": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 16,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 32,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 7,
+          "3": 20,
+          "4": 12
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 12,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 12
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 12
+        },
+        "raw_false_block": 12,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 12
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 12
+        },
+        "reads": 0,
+        "rejected_claims": 48,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 16,
+        "affordable_verified_deferrals": 16,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 32,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 7,
+          "3": 20,
+          "4": 12
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 48
+      },
+      "fixed": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 0,
+        "certified_block": 9,
+        "floor_above_budget": 32,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 7,
+          "3": 20,
+          "4": 12
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 88,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 88,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 88
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 39
+      },
+      "optimal_tree": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 6,
+        "affordable_verified_deferrals": 6,
+        "certified_allow": 0,
+        "certified_block": 10,
+        "floor_above_budget": 32,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 7,
+          "3": 20,
+          "4": 12
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 95,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 95,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 95
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 38
+      },
+      "random": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 14,
+        "affordable_verified_deferrals": 14,
+        "certified_allow": 0,
+        "certified_block": 2,
+        "floor_above_budget": 32,
+        "hindsight_floor_histogram": {
+          "1": 9,
+          "2": 7,
+          "3": 20,
+          "4": 12
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 46
+      }
+    },
+    "quorum_release": {
+      "adaptive": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 1,
+        "certified_block": 1,
+        "floor_above_budget": 39,
+        "hindsight_floor_histogram": {
+          "2": 9,
+          "3": 16,
+          "4": 23
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 46
+      },
+      "checkpoint": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 9,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 39,
+        "hindsight_floor_histogram": {
+          "2": 9,
+          "3": 16,
+          "4": 23
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 12,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 12
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 12
+        },
+        "raw_false_block": 12,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 12
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 12
+        },
+        "reads": 0,
+        "rejected_claims": 48,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 9,
+        "affordable_verified_deferrals": 9,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 39,
+        "hindsight_floor_histogram": {
+          "2": 9,
+          "3": 16,
+          "4": 23
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 48
+      },
+      "fixed": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 1,
+        "certified_block": 1,
+        "floor_above_budget": 39,
+        "hindsight_floor_histogram": {
+          "2": 9,
+          "3": 16,
+          "4": 23
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 46
+      },
+      "optimal_tree": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 1,
+        "certified_block": 1,
+        "floor_above_budget": 39,
+        "hindsight_floor_histogram": {
+          "2": 9,
+          "3": 16,
+          "4": 23
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 62,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 62,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 62
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 46
+      },
+      "random": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 8,
+        "affordable_verified_deferrals": 8,
+        "certified_allow": 0,
+        "certified_block": 1,
+        "floor_above_budget": 39,
+        "hindsight_floor_histogram": {
+          "2": 9,
+          "3": 16,
+          "4": 23
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 47
+      }
+    }
+  },
+  "primary_budget_by_surface": {
+    "high": {
+      "adaptive": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 0,
+        "certified_block": 3,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 94,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 94,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 94
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 45
+      },
+      "checkpoint": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 10,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 12,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 12
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 12
+        },
+        "raw_false_block": 12,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 12
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 12
+        },
+        "reads": 0,
+        "rejected_claims": 48,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 10,
+        "affordable_verified_deferrals": 10,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 48
+      },
+      "fixed": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 0,
+        "certified_block": 3,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 94,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 94,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 94
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 45
+      },
+      "optimal_tree": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 0,
+        "certified_block": 3,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 76,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 76,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 76
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 45
+      },
+      "random": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 9,
+        "affordable_verified_deferrals": 9,
+        "certified_allow": 0,
+        "certified_block": 1,
+        "floor_above_budget": 38,
+        "hindsight_floor_histogram": {
+          "1": 3,
+          "2": 7,
+          "3": 20,
+          "4": 18
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 47
+      }
+    },
+    "low": {
+      "adaptive": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 1,
+        "certified_block": 7,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 90,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 90,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 90
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 40
+      },
+      "checkpoint": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 15,
+        "affordable_verified_deferrals": 0,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 12,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 12
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 12
+        },
+        "raw_false_block": 12,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 12
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 12
+        },
+        "reads": 0,
+        "rejected_claims": 48,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 48
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 0,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "verified_deferrals": 0
+      },
+      "defer": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 15,
+        "affordable_verified_deferrals": 15,
+        "certified_allow": 0,
+        "certified_block": 0,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 0,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 0,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 48
+      },
+      "fixed": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 7,
+        "affordable_verified_deferrals": 7,
+        "certified_allow": 1,
+        "certified_block": 7,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 90,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 90,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 90
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 40
+      },
+      "optimal_tree": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 6,
+        "affordable_verified_deferrals": 6,
+        "certified_allow": 1,
+        "certified_block": 8,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 81,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 81,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 81
+        },
+        "verified_deferral_of_allowed": 23,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 23
+        },
+        "verified_deferrals": 39
+      },
+      "random": {
+        "actually_allowed": 24,
+        "actually_blocked": 24,
+        "affordable_but_uncertified": 13,
+        "affordable_verified_deferrals": 13,
+        "certified_allow": 0,
+        "certified_block": 2,
+        "floor_above_budget": 33,
+        "hindsight_floor_histogram": {
+          "1": 6,
+          "2": 9,
+          "3": 16,
+          "4": 17
+        },
+        "n": 48,
+        "noninformative_reads": 0,
+        "pairs_fully_certified": 0,
+        "raw_false_allow": 0,
+        "raw_false_allow_per_blocked": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_allow_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "raw_false_block": 0,
+        "raw_false_block_per_allowed": {
+          "denominator": 24,
+          "numerator": 0
+        },
+        "raw_false_block_per_case": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "reads": 96,
+        "rejected_claims": 0,
+        "rejected_per_submitted": {
+          "denominator": 48,
+          "numerator": 0
+        },
+        "spent_units": 96,
+        "spent_units_per_case": {
+          "denominator": 48,
+          "numerator": 96
+        },
+        "verified_deferral_of_allowed": 24,
+        "verified_deferral_per_allowed": {
+          "denominator": 24,
+          "numerator": 24
+        },
+        "verified_deferrals": 46
+      }
+    }
+  },
+  "schema": "resumecert-confirmatory-results-v1",
+  "sensitivity": {
+    "grouped": {
+      "capacity_reservation": {
+        "adaptive": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 13,
+          "affordable_verified_deferrals": 13,
+          "certified_allow": 9,
+          "certified_block": 11,
+          "floor_above_budget": 15,
+          "hindsight_floor_histogram": {
+            "1": 11,
+            "2": 22,
+            "3": 15
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 6,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 88,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 88,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 88
+          },
+          "verified_deferral_of_allowed": 15,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 15
+          },
+          "verified_deferrals": 28
+        },
+        "fixed": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 13,
+          "affordable_verified_deferrals": 13,
+          "certified_allow": 9,
+          "certified_block": 11,
+          "floor_above_budget": 15,
+          "hindsight_floor_histogram": {
+            "1": 11,
+            "2": 22,
+            "3": 15
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 6,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 88,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 88,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 88
+          },
+          "verified_deferral_of_allowed": 15,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 15
+          },
+          "verified_deferrals": 28
+        },
+        "optimal_tree": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 6,
+          "affordable_verified_deferrals": 6,
+          "certified_allow": 9,
+          "certified_block": 18,
+          "floor_above_budget": 15,
+          "hindsight_floor_histogram": {
+            "1": 11,
+            "2": 22,
+            "3": 15
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 6,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 93,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 93,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 93
+          },
+          "verified_deferral_of_allowed": 15,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 15
+          },
+          "verified_deferrals": 21
+        }
+      },
+      "pooled": {
+        "adaptive": {
+          "actually_allowed": 48,
+          "actually_blocked": 48,
+          "affordable_but_uncertified": 17,
+          "affordable_verified_deferrals": 17,
+          "certified_allow": 14,
+          "certified_block": 16,
+          "floor_above_budget": 49,
+          "hindsight_floor_histogram": {
+            "1": 11,
+            "2": 36,
+            "3": 38,
+            "4": 11
+          },
+          "n": 96,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 6,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "reads": 184,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "spent_units": 184,
+          "spent_units_per_case": {
+            "denominator": 96,
+            "numerator": 184
+          },
+          "verified_deferral_of_allowed": 34,
+          "verified_deferral_per_allowed": {
+            "denominator": 48,
+            "numerator": 34
+          },
+          "verified_deferrals": 66
+        },
+        "fixed": {
+          "actually_allowed": 48,
+          "actually_blocked": 48,
+          "affordable_but_uncertified": 17,
+          "affordable_verified_deferrals": 17,
+          "certified_allow": 14,
+          "certified_block": 16,
+          "floor_above_budget": 49,
+          "hindsight_floor_histogram": {
+            "1": 11,
+            "2": 36,
+            "3": 38,
+            "4": 11
+          },
+          "n": 96,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 6,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "reads": 184,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "spent_units": 184,
+          "spent_units_per_case": {
+            "denominator": 96,
+            "numerator": 184
+          },
+          "verified_deferral_of_allowed": 34,
+          "verified_deferral_per_allowed": {
+            "denominator": 48,
+            "numerator": 34
+          },
+          "verified_deferrals": 66
+        },
+        "optimal_tree": {
+          "actually_allowed": 48,
+          "actually_blocked": 48,
+          "affordable_but_uncertified": 10,
+          "affordable_verified_deferrals": 10,
+          "certified_allow": 14,
+          "certified_block": 23,
+          "floor_above_budget": 49,
+          "hindsight_floor_histogram": {
+            "1": 11,
+            "2": 36,
+            "3": 38,
+            "4": 11
+          },
+          "n": 96,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 6,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "reads": 189,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "spent_units": 189,
+          "spent_units_per_case": {
+            "denominator": 96,
+            "numerator": 189
+          },
+          "verified_deferral_of_allowed": 34,
+          "verified_deferral_per_allowed": {
+            "denominator": 48,
+            "numerator": 34
+          },
+          "verified_deferrals": 59
+        }
+      },
+      "quorum_release": {
+        "adaptive": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 5,
+          "certified_block": 5,
+          "floor_above_budget": 34,
+          "hindsight_floor_histogram": {
+            "2": 14,
+            "3": 23,
+            "4": 11
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 96,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 96,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 96
+          },
+          "verified_deferral_of_allowed": 19,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 19
+          },
+          "verified_deferrals": 38
+        },
+        "fixed": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 5,
+          "certified_block": 5,
+          "floor_above_budget": 34,
+          "hindsight_floor_histogram": {
+            "2": 14,
+            "3": 23,
+            "4": 11
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 96,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 96,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 96
+          },
+          "verified_deferral_of_allowed": 19,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 19
+          },
+          "verified_deferrals": 38
+        },
+        "optimal_tree": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 5,
+          "certified_block": 5,
+          "floor_above_budget": 34,
+          "hindsight_floor_histogram": {
+            "2": 14,
+            "3": 23,
+            "4": 11
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 96,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 96,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 96
+          },
+          "verified_deferral_of_allowed": 19,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 19
+          },
+          "verified_deferrals": 38
+        }
+      }
+    },
+    "unequal": {
+      "capacity_reservation": {
+        "adaptive": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 0,
+          "certified_block": 8,
+          "floor_above_budget": 36,
+          "hindsight_floor_histogram": {
+            "1": 8,
+            "2": 4,
+            "3": 4,
+            "4": 20,
+            "5": 12
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 88,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 88,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 88
+          },
+          "verified_deferral_of_allowed": 24,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 24
+          },
+          "verified_deferrals": 40
+        },
+        "fixed": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 0,
+          "certified_block": 8,
+          "floor_above_budget": 36,
+          "hindsight_floor_histogram": {
+            "1": 8,
+            "2": 4,
+            "3": 4,
+            "4": 20,
+            "5": 12
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 48,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 48,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 48
+          },
+          "verified_deferral_of_allowed": 24,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 24
+          },
+          "verified_deferrals": 40
+        },
+        "optimal_tree": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 0,
+          "certified_block": 8,
+          "floor_above_budget": 36,
+          "hindsight_floor_histogram": {
+            "1": 8,
+            "2": 4,
+            "3": 4,
+            "4": 20,
+            "5": 12
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 96,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 96,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 96
+          },
+          "verified_deferral_of_allowed": 24,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 24
+          },
+          "verified_deferrals": 40
+        }
+      },
+      "pooled": {
+        "adaptive": {
+          "actually_allowed": 48,
+          "actually_blocked": 48,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 0,
+          "certified_block": 8,
+          "floor_above_budget": 84,
+          "hindsight_floor_histogram": {
+            "1": 8,
+            "2": 4,
+            "3": 13,
+            "4": 41,
+            "5": 30
+          },
+          "n": 96,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "reads": 136,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "spent_units": 184,
+          "spent_units_per_case": {
+            "denominator": 96,
+            "numerator": 184
+          },
+          "verified_deferral_of_allowed": 48,
+          "verified_deferral_per_allowed": {
+            "denominator": 48,
+            "numerator": 48
+          },
+          "verified_deferrals": 88
+        },
+        "fixed": {
+          "actually_allowed": 48,
+          "actually_blocked": 48,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 0,
+          "certified_block": 8,
+          "floor_above_budget": 84,
+          "hindsight_floor_histogram": {
+            "1": 8,
+            "2": 4,
+            "3": 13,
+            "4": 41,
+            "5": 30
+          },
+          "n": 96,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "reads": 96,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "spent_units": 96,
+          "spent_units_per_case": {
+            "denominator": 96,
+            "numerator": 96
+          },
+          "verified_deferral_of_allowed": 48,
+          "verified_deferral_per_allowed": {
+            "denominator": 48,
+            "numerator": 48
+          },
+          "verified_deferrals": 88
+        },
+        "optimal_tree": {
+          "actually_allowed": 48,
+          "actually_blocked": 48,
+          "affordable_but_uncertified": 4,
+          "affordable_verified_deferrals": 4,
+          "certified_allow": 0,
+          "certified_block": 8,
+          "floor_above_budget": 84,
+          "hindsight_floor_histogram": {
+            "1": 8,
+            "2": 4,
+            "3": 13,
+            "4": 41,
+            "5": 30
+          },
+          "n": 96,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "reads": 96,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 96,
+            "numerator": 0
+          },
+          "spent_units": 96,
+          "spent_units_per_case": {
+            "denominator": 96,
+            "numerator": 96
+          },
+          "verified_deferral_of_allowed": 48,
+          "verified_deferral_per_allowed": {
+            "denominator": 48,
+            "numerator": 48
+          },
+          "verified_deferrals": 88
+        }
+      },
+      "quorum_release": {
+        "adaptive": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 48,
+          "hindsight_floor_histogram": {
+            "3": 9,
+            "4": 21,
+            "5": 18
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 48,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 96,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 96
+          },
+          "verified_deferral_of_allowed": 24,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 24
+          },
+          "verified_deferrals": 48
+        },
+        "fixed": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 48,
+          "hindsight_floor_histogram": {
+            "3": 9,
+            "4": 21,
+            "5": 18
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 48,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 48,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 48
+          },
+          "verified_deferral_of_allowed": 24,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 24
+          },
+          "verified_deferrals": 48
+        },
+        "optimal_tree": {
+          "actually_allowed": 24,
+          "actually_blocked": 24,
+          "affordable_but_uncertified": 0,
+          "affordable_verified_deferrals": 0,
+          "certified_allow": 0,
+          "certified_block": 0,
+          "floor_above_budget": 48,
+          "hindsight_floor_histogram": {
+            "3": 9,
+            "4": 21,
+            "5": 18
+          },
+          "n": 48,
+          "noninformative_reads": 0,
+          "pairs_fully_certified": 0,
+          "raw_false_allow": 0,
+          "raw_false_allow_per_blocked": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_allow_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "raw_false_block": 0,
+          "raw_false_block_per_allowed": {
+            "denominator": 24,
+            "numerator": 0
+          },
+          "raw_false_block_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "reads": 0,
+          "rejected_claims": 0,
+          "rejected_per_submitted": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "spent_units": 0,
+          "spent_units_per_case": {
+            "denominator": 48,
+            "numerator": 0
+          },
+          "verified_deferral_of_allowed": 24,
+          "verified_deferral_per_allowed": {
+            "denominator": 24,
+            "numerator": 24
+          },
+          "verified_deferrals": 48
+        }
+      }
+    }
+  }
+}

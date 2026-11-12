@@ -18,7 +18,7 @@ For example, a document may have a recorded approval but a newer version than th
 | [Simulator and independent verifier](docs/research/SIMULATOR_V1.md) | Available; [64 witness runs and decision fixtures](results/simulator_smoke_v1.json) reproduced |
 | [Matched development pilot](docs/research/MATCHED_PILOT_V1.md) | Available; 24 pairs, three synthetic families, and 12 controls |
 | [Confirmatory protocol and freeze](docs/research/CONFIRMATORY_PROTOCOL_V1.md) | Recorded before evaluation; 48 pairs in two new families |
-| Held-out confirmatory comparison | Not run |
+| [Held-out confirmatory comparison](docs/research/CONFIRMATORY_RESULTS_V1.md) | Complete; 11/96 for each method at two reads |
 
 The witness uses three Boolean fields and eight constructed states. With two unit-cost reads, the best fixed field set certifies **4 of 8** states; an adaptive tree that reads the active route and then the corresponding approval certifies **8 of 8**. This is an exact result for the constructed example. No LLM or real workflow was evaluated.
 
@@ -27,6 +27,10 @@ The witness uses three Boolean fields and eight constructed states. With two uni
 At two unit reads per case, greedy adaptive reads certify **22/48** cases versus **19/48** for an optimized fixed order at the same total cost. With a cheap grouped read, both reach **32/48**. The [pilot report](docs/research/MATCHED_PILOT_V1.md) separates the gains, the cost of observations, and the cases where evidence is insufficient.
 
 ![ResumeCert pilot coverage across read budgets](results/matched_pilot_coverage_v1.svg)
+
+## Confirmatory result
+
+At two unit-cost reads, greedy adaptive and optimized fixed certified the same **11/96** snapshots in the two held-out families. Each spent 184 units. The registered interpretation is **no pooled gain**. Adding a unit-cost grouped query raised both to **30/96** at the same total cost. See the [report](docs/research/CONFIRMATORY_RESULTS_V1.md) and [full run traces](results/confirmatory_v1_runs.jsonl.gz).
 
 ## Reproduce
 
@@ -39,12 +43,13 @@ python -m unittest discover -s tests -v
 python -m resumecert demo --check results/simulator_smoke_v1.json
 python -m resumecert pilot --check results/matched_pilot_v1.json
 python scripts/verify_freeze.py
+python scripts/run_confirmatory.py --check results
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.
 
 ## Next milestone
 
-Execute the frozen confirmatory protocol and report coverage, read cost, and failure categories in both held-out families. See the [research status and roadmap](docs/research/STATUS.md).
+Evaluate transfer to an independent workflow or a model-based read policy as a separate exploratory study. See the [research status and roadmap](docs/research/STATUS.md).
 
 To cite this repository, use [CITATION.cff](CITATION.cff). The institutional marks are displayed in the [acknowledgments](docs/ACKNOWLEDGMENTS.md) for educational context.
