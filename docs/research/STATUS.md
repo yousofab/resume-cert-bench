@@ -10,10 +10,12 @@
 - [Confirmatory protocol freeze](CONFIRMATORY_PROTOCOL_V1.md): 48 pairs across two new families, eight separate controls, and source and case commitments.
 - [Confirmatory results](CONFIRMATORY_RESULTS_V1.md): the registered contrast was 0/96 at two unit reads. Each main policy certified 11 of 96 snapshots at a total cost of 184 units. The report includes sensitivity and control outcomes and links to the full traces.
 
+- [Exploratory archive transfer](ARCHIVE_TRANSFER_V1.md) measures certificate validity at the commit boundary with a second SQLite connection and 7,680 deterministic trials.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |
 | --- | --- | --- |
-| Transfer | An independent workflow or a model-based read policy | Report separately as exploratory |
+| Model policy | Compare an LLM read policy with the deterministic reference policies | Report separately as exploratory |
 
 The action is fixed in the primary experiment. The verifier certifies a decision only under the declared state space, observation contract, and stable snapshot. The study does not measure end-to-end task completion, human cognition, or production safety.
