@@ -36,6 +36,10 @@ At two unit-cost reads, greedy adaptive and optimized fixed certified the same *
 
 An archive receipt experiment checks whether a verified snapshot certificate still authorizes the action after another writer changes the database. At budget four, atomic sufficient-evidence revalidation wrote **64 valid and zero invalid receipts**, compared with **60 valid and zero invalid** for matching all evidence. Full predicate evaluation wrote **76 valid and zero invalid**. [Study and complete traces](docs/research/ARCHIVE_TRANSFER_V1.md)
 
+## Durable checkpoint repair
+
+After a SQLite writer changes the authorization route, ResumeCert validates field epochs and reads just enough new evidence to rebuild the decision. In the exploratory archive fixture, a three-read cap recovered **76/76** eligible requests versus **64/76** for a fresh start at the same cap. The [study](docs/research/ARCHIVE_REPAIR_V1.md) also accounts for the cost of epoch checks.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -49,12 +53,13 @@ python -m resumecert pilot --check results/matched_pilot_v1.json
 python scripts/verify_freeze.py
 python scripts/run_confirmatory.py --check results
 python scripts/run_archive_transfer.py --check results
+python scripts/run_archive_repair.py --check results
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.
 
 ## Next milestone
 
-The SQLite transfer is complete. A model-based read policy remains a potential exploratory study. See the [research status and roadmap](docs/research/STATUS.md).
+The SQLite transfer and durable checkpoint repair studies are complete. A model-based read policy remains a potential exploratory study. See the [research status and roadmap](docs/research/STATUS.md).
 
 To cite this repository, use [CITATION.cff](CITATION.cff). The institutional marks are displayed in the [acknowledgments](docs/ACKNOWLEDGMENTS.md) for educational context.

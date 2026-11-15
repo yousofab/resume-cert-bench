@@ -12,6 +12,8 @@
 
 - [Exploratory archive transfer](ARCHIVE_TRANSFER_V1.md) measures certificate validity at the commit boundary with a second SQLite connection and 7,680 deterministic trials.
 
+- [Budgeted archive repair](ARCHIVE_REPAIR_V1.md) compares epoch-validated evidence reuse with fresh planning over 20,160 SQLite trials and includes cost sensitivity.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

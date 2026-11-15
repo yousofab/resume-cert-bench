@@ -12,6 +12,10 @@
 
 در یک گردش کار آرشیو، بین صدور گواه و ثبت اقدام وضعیت را تغییر دادیم. در بودجهٔ چهار، بازاعتبارسنجی شواهد کافی ۶۴ رسید مجاز و صفر رسید نامجاز ثبت کرد. تطبیق همهٔ شواهد ۶۰ و ارزیابی کامل پیش‌شرط ۷۶ رسید مجاز ثبت کردند. [طراحی آزمایش، نتیجه و ردپاها](docs/research/ARCHIVE_TRANSFER_V1_FA.md)
 
+## ترمیم گواه پس از وقفه
+
+در مطالعهٔ اکتشافی SQLite، با حفظ شواهدی که نسخهٔ فیلدشان معتبر ماند، سقف سه خواندن تازه برای ثبت هر ۷۶ اقدام مجاز کافی بود. شروع از صفر در همان بودجه ۶۴ رسید ثبت کرد. [گزارش فارسی و مقایسهٔ هزینهٔ بررسی نسخه](docs/research/ARCHIVE_REPAIR_V1_FA.md)
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -36,4 +40,5 @@ python -m resumecert pilot --check results/matched_pilot_v1.json
 python scripts/verify_freeze.py
 python scripts/run_confirmatory.py --check results
 python scripts/run_archive_transfer.py --check results
+python scripts/run_archive_repair.py --check results
 ```
