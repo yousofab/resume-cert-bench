@@ -47,3 +47,5 @@ jobs:
         run: python scripts/run_archive_transfer.py --check results
       - name: Reproduce SQLite checkpoint repair and all run traces
         run: python scripts/run_archive_repair.py --check results
+      - name: Reproduce archive notification delivery and durable receipts
+        run: python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json

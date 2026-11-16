@@ -1,0 +1,1045 @@
+{
+  "schema": "resumecert-archive-delivery-v1",
+  "by_retry_budget": {
+    "0": {
+      "stop_on_unknown": {
+        "exactly_one_effect": 5,
+        "duplicate": 1,
+        "missing": 2,
+        "source_pending": 6
+      },
+      "blind_retry": {
+        "exactly_one_effect": 5,
+        "duplicate": 1,
+        "missing": 2,
+        "source_pending": 6
+      },
+      "lookup_then_retry": {
+        "exactly_one_effect": 5,
+        "duplicate": 1,
+        "missing": 2,
+        "source_pending": 6
+      },
+      "stable_key": {
+        "exactly_one_effect": 6,
+        "duplicate": 0,
+        "missing": 2,
+        "source_pending": 6
+      }
+    },
+    "1": {
+      "stop_on_unknown": {
+        "exactly_one_effect": 5,
+        "duplicate": 1,
+        "missing": 2,
+        "source_pending": 6
+      },
+      "blind_retry": {
+        "exactly_one_effect": 2,
+        "duplicate": 5,
+        "missing": 1,
+        "source_pending": 2
+      },
+      "lookup_then_retry": {
+        "exactly_one_effect": 4,
+        "duplicate": 3,
+        "missing": 1,
+        "source_pending": 1
+      },
+      "stable_key": {
+        "exactly_one_effect": 7,
+        "duplicate": 0,
+        "missing": 1,
+        "source_pending": 2
+      }
+    },
+    "2": {
+      "stop_on_unknown": {
+        "exactly_one_effect": 5,
+        "duplicate": 1,
+        "missing": 2,
+        "source_pending": 6
+      },
+      "blind_retry": {
+        "exactly_one_effect": 2,
+        "duplicate": 5,
+        "missing": 1,
+        "source_pending": 1
+      },
+      "lookup_then_retry": {
+        "exactly_one_effect": 4,
+        "duplicate": 3,
+        "missing": 1,
+        "source_pending": 1
+      },
+      "stable_key": {
+        "exactly_one_effect": 7,
+        "duplicate": 0,
+        "missing": 1,
+        "source_pending": 1
+      }
+    }
+  },
+  "cases": [
+    {
+      "fault": "healthy",
+      "policy": "stop_on_unknown",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "blind_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "lookup_then_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "stable_key",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "stop_on_unknown",
+      "retry_budget": 0,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "blind_retry",
+      "retry_budget": 0,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "lookup_then_retry",
+      "retry_budget": 0,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "stable_key",
+      "retry_budget": 0,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "stop_on_unknown",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "blind_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "lookup_then_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "stable_key",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "late_commit",
+      "policy": "stop_on_unknown",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "late_commit",
+      "policy": "blind_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "late_commit",
+      "policy": "lookup_then_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "late_commit",
+      "policy": "stable_key",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "stop_on_unknown",
+      "retry_budget": 0,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "blind_retry",
+      "retry_budget": 0,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "lookup_then_retry",
+      "retry_budget": 0,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "stable_key",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "stop_on_unknown",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "blind_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "lookup_then_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "stable_key",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "outage",
+      "policy": "stop_on_unknown",
+      "retry_budget": 0,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "blind_retry",
+      "retry_budget": 0,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "lookup_then_retry",
+      "retry_budget": 0,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "stable_key",
+      "retry_budget": 0,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "stop_on_unknown",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "blind_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "lookup_then_retry",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "stable_key",
+      "retry_budget": 0,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "stop_on_unknown",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "blind_retry",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "lookup_then_retry",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "stable_key",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "stop_on_unknown",
+      "retry_budget": 1,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "blind_retry",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "lookup_then_retry",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 1,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "stable_key",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "stop_on_unknown",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "blind_retry",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "lookup_then_retry",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 1,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "stable_key",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "late_commit",
+      "policy": "stop_on_unknown",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "late_commit",
+      "policy": "blind_retry",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "late_commit",
+      "policy": "lookup_then_retry",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 1,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "late_commit",
+      "policy": "stable_key",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "stop_on_unknown",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "blind_retry",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "lookup_then_retry",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "stable_key",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "stop_on_unknown",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "blind_retry",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "lookup_then_retry",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 1,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "stable_key",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "outage",
+      "policy": "stop_on_unknown",
+      "retry_budget": 1,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "blind_retry",
+      "retry_budget": 1,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "lookup_then_retry",
+      "retry_budget": 1,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 2,
+      "lookups": 1,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "stable_key",
+      "retry_budget": 1,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "stop_on_unknown",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "blind_retry",
+      "retry_budget": 1,
+      "effect_count": 2,
+      "status": "pending",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "lookup_then_retry",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 1,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "stable_key",
+      "retry_budget": 1,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "healthy",
+      "policy": "stop_on_unknown",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "blind_retry",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "lookup_then_retry",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "healthy",
+      "policy": "stable_key",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "stop_on_unknown",
+      "retry_budget": 2,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "blind_retry",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "lookup_then_retry",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 1,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_before_apply",
+      "policy": "stable_key",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "stop_on_unknown",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "blind_retry",
+      "retry_budget": 2,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "lookup_then_retry",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 1,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "lost_ack",
+      "policy": "stable_key",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "late_commit",
+      "policy": "stop_on_unknown",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "late_commit",
+      "policy": "blind_retry",
+      "retry_budget": 2,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "late_commit",
+      "policy": "lookup_then_retry",
+      "retry_budget": 2,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 1,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "late_commit",
+      "policy": "stable_key",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "stop_on_unknown",
+      "retry_budget": 2,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "blind_retry",
+      "retry_budget": 2,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "lookup_then_retry",
+      "retry_budget": 2,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "transport_redelivery",
+      "policy": "stable_key",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "stop_on_unknown",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "blind_retry",
+      "retry_budget": 2,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "lookup_then_retry",
+      "retry_budget": 2,
+      "effect_count": 2,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 1,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "stale_lookup",
+      "policy": "stable_key",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 2,
+      "lookups": 0,
+      "sink_invocations": 2
+    },
+    {
+      "fault": "outage",
+      "policy": "stop_on_unknown",
+      "retry_budget": 2,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "blind_retry",
+      "retry_budget": 2,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 3,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "lookup_then_retry",
+      "retry_budget": 2,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 3,
+      "lookups": 2,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "outage",
+      "policy": "stable_key",
+      "retry_budget": 2,
+      "effect_count": 0,
+      "status": "pending",
+      "sends": 3,
+      "lookups": 0,
+      "sink_invocations": 0
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "stop_on_unknown",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "pending",
+      "sends": 1,
+      "lookups": 0,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "blind_retry",
+      "retry_budget": 2,
+      "effect_count": 3,
+      "status": "sent",
+      "sends": 3,
+      "lookups": 0,
+      "sink_invocations": 3
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "lookup_then_retry",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 1,
+      "lookups": 1,
+      "sink_invocations": 1
+    },
+    {
+      "fault": "two_lost_acks",
+      "policy": "stable_key",
+      "retry_budget": 2,
+      "effect_count": 1,
+      "status": "sent",
+      "sends": 3,
+      "lookups": 0,
+      "sink_invocations": 3
+    }
+  ]
+}

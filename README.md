@@ -40,6 +40,10 @@ An archive receipt experiment checks whether a verified snapshot certificate sti
 
 After a SQLite writer changes the authorization route, ResumeCert validates field epochs and reads just enough new evidence to rebuild the decision. In the exploratory archive fixture, a three-read cap recovered **76/76** eligible requests versus **64/76** for a fresh start at the same cap. The [study](docs/research/ARCHIVE_REPAIR_V1.md) also accounts for the cost of epoch checks.
 
+## Delivery after an uncertain acknowledgement
+
+A two-store SQLite experiment connects verified archive commits to a durable outbox and a keyed destination receipt. With two recovery cycles, stable deduplication completed 7 of 8 schedules with one effect each. The persistent outage left one pending. [Design and reproduction](docs/research/ARCHIVE_DELIVERY_V1.md)
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -54,6 +58,7 @@ python scripts/verify_freeze.py
 python scripts/run_confirmatory.py --check results
 python scripts/run_archive_transfer.py --check results
 python scripts/run_archive_repair.py --check results
+python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.
