@@ -14,6 +14,8 @@
 
 - [Budgeted archive repair](ARCHIVE_REPAIR_V1.md) compares epoch-validated evidence reuse with fresh planning over 20,160 SQLite trials and includes cost sensitivity.
 
+- [Archive notification recovery](ARCHIVE_DELIVERY_V1.md) checks source authorization, destination deduplication and unresolved delivery under eight local fault schedules.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

@@ -16,6 +16,10 @@
 
 در مطالعهٔ اکتشافی SQLite، با حفظ شواهدی که نسخهٔ فیلدشان معتبر ماند، سقف سه خواندن تازه برای ثبت هر ۷۶ اقدام مجاز کافی بود. شروع از صفر در همان بودجه ۶۴ رسید ثبت کرد. [گزارش فارسی و مقایسهٔ هزینهٔ بررسی نسخه](docs/research/ARCHIVE_REPAIR_V1_FA.md)
 
+## بازیابی ارسال به مقصد
+
+نمونهٔ SQLite ثبت آرشیو را به صف پایدار و رسید یکتای مقصد وصل می‌کند. با دو فرصت بازیابی، روش کلید ثابت در هفت سناریو دقیقاً یک اثر ثبت کرد و قطعی ممتد در انتظار ماند. [گزارش فارسی](docs/research/ARCHIVE_DELIVERY_V1_FA.md)
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -41,4 +45,5 @@ python scripts/verify_freeze.py
 python scripts/run_confirmatory.py --check results
 python scripts/run_archive_transfer.py --check results
 python scripts/run_archive_repair.py --check results
+python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
 ```
