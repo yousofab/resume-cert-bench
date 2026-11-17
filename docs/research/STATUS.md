@@ -16,6 +16,8 @@
 
 - [Archive notification recovery](ARCHIVE_DELIVERY_V1.md) checks source authorization, destination deduplication and unresolved delivery under eight local fault schedules.
 
+- [Destination revocation](DESTINATION_REVOCATION_V1.md) compares commit-time fencing, sender rechecks and separate receipt recovery in 56 executable cases.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

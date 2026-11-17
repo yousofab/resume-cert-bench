@@ -1,0 +1,2903 @@
+{
+  "runs": [
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_ack"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "healthy",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_ack"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "healthy",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_ack"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "healthy",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_ack"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "healthy",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 2,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "cut_before_queue",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "sender_blocked",
+          "step": "queue"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "no_delivery",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "unknown",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "cut_before_queue",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "sender_blocked",
+          "step": "queue"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "no_delivery",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "cut_before_queue",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "sender_blocked",
+          "step": "queue"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "no_delivery",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "fenced_no_effect",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "cut_before_queue",
+      "settlement": "fenced_no_effect",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "sender_check_race",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "sender_check_race",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "sender_check_race",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "fenced_no_effect",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "sender_check_race",
+      "settlement": "fenced_no_effect",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "pre_cut_commit_ack_lost",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "pre_cut_commit_ack_lost",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": {
+              "accepted_epoch": 1,
+              "receipt": {
+                "effect_id": 1,
+                "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+                "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4"
+              }
+            },
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "pre_cut_commit_ack_lost",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": {
+              "accepted_epoch": 1,
+              "receipt": {
+                "effect_id": 1,
+                "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+                "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4"
+              }
+            },
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "pre_cut_commit_ack_lost",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 1,
+      "scenario": "cut_propagation_window",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 1,
+      "scenario": "cut_propagation_window",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": {
+              "accepted_epoch": 1,
+              "receipt": {
+                "effect_id": 1,
+                "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+                "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4"
+              }
+            },
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 1,
+      "scenario": "cut_propagation_window",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": {
+              "accepted_epoch": 1,
+              "receipt": {
+                "effect_id": 1,
+                "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+                "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4"
+              }
+            },
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 1,
+      "scenario": "cut_propagation_window",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 1,
+      "scenario": "fence_control_not_delivered",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 1,
+      "scenario": "fence_control_not_delivered",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "lookup_blocked",
+          "step": "recover"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 1,
+      "scenario": "fence_control_not_delivered",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 1,
+      "scenario": "fence_control_not_delivered",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": true,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 1,
+      "scenario": "no_dispatch_during_propagation",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "sender_blocked",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "no_delivery",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "unknown",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "no_dispatch_during_propagation",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "sender_blocked",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "no_delivery",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "no_dispatch_during_propagation",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "sender_blocked",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "no_delivery",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "unknown",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "no_dispatch_during_propagation",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "receipt_id": 1,
+          "status": "same_receipt",
+          "step": "arrive_ack"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "regrant_old_arrives_first",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "receipt_id": 1,
+          "status": "same_receipt",
+          "step": "arrive_ack"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "regrant_old_arrives_first",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_ack"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "regrant_old_arrives_first",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_ack"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "regrant_old_arrives_first",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_newest_ack"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "receipt_id": 1,
+          "status": "same_receipt",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "regrant_new_arrives_first",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_newest_ack"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "receipt_id": 1,
+          "status": "same_receipt",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "regrant_new_arrives_first",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_newest_ack"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "regrant_new_arrives_first",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_newest_ack"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "regrant_new_arrives_first",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "unknown",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "closed_empty",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "unknown",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "closed_empty",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "closed_empty",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "fenced_no_effect",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "closed_empty",
+      "settlement": "fenced_no_effect",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "active_ack_lost",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "active_ack_lost",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "active_ack_lost",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "active_ack_lost",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "step": "replay_old"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "receipt_id": 1,
+          "status": "same_receipt",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "redelivery_after_fence",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "step": "replay_old"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "receipt_id": 1,
+          "status": "same_receipt",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "redelivery_after_fence",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": {
+              "accepted_epoch": 1,
+              "receipt": {
+                "effect_id": 1,
+                "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+                "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4"
+              }
+            },
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "step": "replay_old"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "redelivery_after_fence",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 1,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": {
+              "accepted_epoch": 1,
+              "receipt": {
+                "effect_id": 1,
+                "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+                "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4"
+              }
+            },
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "step": "replay_old"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "redelivery_after_fence",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "replayed",
+          "step": "replay_fence"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "receipt_id": 1,
+          "status": "same_receipt",
+          "step": "arrive_ack"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "old_cut_replay_after_regrant",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "replayed",
+          "step": "replay_fence"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "receipt_id": 1,
+          "status": "same_receipt",
+          "step": "arrive_ack"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "old_cut_replay_after_regrant",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "replayed",
+          "step": "replay_fence"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_ack"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "old_cut_replay_after_regrant",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "new_epoch": 3,
+          "step": "renew"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "replayed",
+          "step": "replay_fence"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "carried_epoch": 3,
+          "destination_active": true,
+          "destination_epoch": 3,
+          "during_propagation": false,
+          "invalid_commit": false,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive_ack"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 3,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "old_cut_replay_after_regrant",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "stable_key",
+      "propagation_effects": 0,
+      "scenario": "reconcile_before_late_arrival",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 0,
+      "effect_count": 1,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "during_propagation": false,
+          "invalid_commit": true,
+          "receipt_id": 1,
+          "status": "applied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "effect_confirmed",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 1,
+      "policy": "sender_recheck",
+      "propagation_effects": 0,
+      "scenario": "reconcile_before_late_arrival",
+      "settlement": "effect_confirmed",
+      "source_status": "sent"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "lookup_blocked",
+          "step": "recover"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "lookup_blocked",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_coupled_lookup",
+      "propagation_effects": 0,
+      "scenario": "reconcile_before_late_arrival",
+      "settlement": "unknown",
+      "source_status": "pending"
+    },
+    {
+      "denied_arrivals": 1,
+      "effect_count": 0,
+      "events": [
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "queued",
+          "step": "queue"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "status": "requested",
+          "step": "request"
+        },
+        {
+          "destination_active": true,
+          "destination_epoch": 1,
+          "fence": {
+            "closed_epoch": 2,
+            "effect": null,
+            "operation_key": "6c4fe1ee384d139ce215940ea2be8f80725e481e22642a293b93eee5c7234620",
+            "payload_digest": "7c245334d61a863b5a6b018ab9197e268b48f3f61a48009b2699675072f59ca4",
+            "retired_epoch": 1
+          },
+          "status": "applied",
+          "step": "fence"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "fenced_no_effect",
+          "step": "recover"
+        },
+        {
+          "carried_epoch": 1,
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "destination_denied",
+          "step": "arrive"
+        },
+        {
+          "destination_active": false,
+          "destination_epoch": 2,
+          "status": "fenced_no_effect",
+          "step": "recover"
+        }
+      ],
+      "invalid_effects": 0,
+      "policy": "fence_separate_lookup",
+      "propagation_effects": 0,
+      "scenario": "reconcile_before_late_arrival",
+      "settlement": "fenced_no_effect",
+      "source_status": "pending"
+    }
+  ],
+  "schema": "resumecert-destination-revocation-v1",
+  "summary": {
+    "fence_coupled_lookup": {
+      "confirmed": 5,
+      "fenced_no_effect": 0,
+      "invalid_effects": 0,
+      "propagation_effects": 2,
+      "recorded_but_unconfirmed": 4,
+      "runs": 14,
+      "unknown": 9
+    },
+    "fence_separate_lookup": {
+      "confirmed": 9,
+      "fenced_no_effect": 4,
+      "invalid_effects": 0,
+      "propagation_effects": 2,
+      "recorded_but_unconfirmed": 0,
+      "runs": 14,
+      "unknown": 1
+    },
+    "sender_recheck": {
+      "confirmed": 11,
+      "fenced_no_effect": 0,
+      "invalid_effects": 4,
+      "propagation_effects": 2,
+      "recorded_but_unconfirmed": 0,
+      "runs": 14,
+      "unknown": 3
+    },
+    "stable_key": {
+      "confirmed": 13,
+      "fenced_no_effect": 0,
+      "invalid_effects": 5,
+      "propagation_effects": 3,
+      "recorded_but_unconfirmed": 0,
+      "runs": 14,
+      "unknown": 1
+    }
+  }
+}
