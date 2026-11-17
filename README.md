@@ -44,6 +44,10 @@ After a SQLite writer changes the authorization route, ResumeCert validates fiel
 
 A two-store SQLite experiment connects verified archive commits to a durable outbox and a keyed destination receipt. With two recovery cycles, stable deduplication completed 7 of 8 schedules with one effect each. The persistent outage left one pending. [Design and reproduction](docs/research/ARCHIVE_DELIVERY_V1.md)
 
+## Destination revocation and receipt recovery
+
+A queued synthetic handoff can lose its dispatch authority before arriving. The [study](docs/research/DESTINATION_REVOCATION_V1.md) compares a destination-side generation fence with sender checks and shows how an independent receipt lookup can recover an existing effect after revocation.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -59,6 +63,7 @@ python scripts/run_confirmatory.py --check results
 python scripts/run_archive_transfer.py --check results
 python scripts/run_archive_repair.py --check results
 python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
+python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.

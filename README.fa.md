@@ -20,6 +20,10 @@
 
 نمونهٔ SQLite ثبت آرشیو را به صف پایدار و رسید یکتای مقصد وصل می‌کند. با دو فرصت بازیابی، روش کلید ثابت در هفت سناریو دقیقاً یک اثر ثبت کرد و قطعی ممتد در انتظار ماند. [گزارش فارسی](docs/research/ARCHIVE_DELIVERY_V1_FA.md)
 
+## لغو مجوز در مقصد
+
+در ۵۶ اجرای آزمایشی، کنترل اتمی نسل مجوز در SQLite جلوی ثبت تحت مجوز بسته یا قدیمی را گرفت. مسیر مستقل بازیابی رسید نیز نتیجهٔ اثرهای پیشین را پس از لغو گزارش داد. [گزارش فارسی](docs/research/DESTINATION_REVOCATION_V1_FA.md)
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -46,4 +50,5 @@ python scripts/run_confirmatory.py --check results
 python scripts/run_archive_transfer.py --check results
 python scripts/run_archive_repair.py --check results
 python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
+python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
 ```

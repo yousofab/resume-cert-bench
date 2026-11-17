@@ -49,3 +49,5 @@ jobs:
         run: python scripts/run_archive_repair.py --check results
       - name: Reproduce archive notification delivery and durable receipts
         run: python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
+      - name: Reproduce revocation, stale arrivals, and receipt reconciliation
+        run: python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
