@@ -97,21 +97,25 @@ def pending_notice(connection, request_id):
 
 def acknowledge(connection, request_id, receipt):
     """Move to sent only for a trusted receipt bound to this request and payload."""
+    with write_transaction(connection):
+        _acknowledge_in_transaction(connection, request_id, receipt)
+
+
+def _acknowledge_in_transaction(connection, request_id, receipt):
     if type(receipt) is not InboxReceipt or type(receipt.effect_id) is not int or receipt.effect_id < 1:
         raise DeliveryConflict("invalid inbox receipt")
-    with write_transaction(connection):
-        row = connection.execute("""
-            SELECT operation_key, payload, status, effect_id FROM notice_outbox WHERE request_id = ?
-        """, (request_id,)).fetchone()
-        if row is None:
-            raise DeliveryConflict("unknown request")
-        key, payload, status, effect_id = row
-        if (key != receipt.operation_key or digest(payload) != receipt.payload_digest
-                or status == "prepared" or (status == "sent" and effect_id != receipt.effect_id)):
-            raise DeliveryConflict("receipt does not match the authorized notice")
-        if status == "pending":
-            connection.execute("UPDATE notice_outbox SET status = 'sent', effect_id = ? WHERE request_id = ?",
-                               (receipt.effect_id, request_id))
+    row = connection.execute("""
+        SELECT operation_key, payload, status, effect_id FROM notice_outbox WHERE request_id = ?
+    """, (request_id,)).fetchone()
+    if row is None:
+        raise DeliveryConflict("unknown request")
+    key, payload, status, effect_id = row
+    if (key != receipt.operation_key or digest(payload) != receipt.payload_digest
+            or status == "prepared" or (status == "sent" and effect_id != receipt.effect_id)):
+        raise DeliveryConflict("receipt does not match the authorized notice")
+    if status == "pending":
+        connection.execute("UPDATE notice_outbox SET status = 'sent', effect_id = ? WHERE request_id = ?",
+                           (receipt.effect_id, request_id))
 
 
 def deliver_once(connection, request_id, send: Callable[[Notice], InboxReceipt]):

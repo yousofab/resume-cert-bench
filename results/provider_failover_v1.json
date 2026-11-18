@@ -1,0 +1,1900 @@
+{
+  "runs": [
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "step": "a_confirm"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "primary_confirmed"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "step": "a_confirm"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "primary_confirmed"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "step": "a_confirm"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "primary_confirmed"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "step": "a_confirm"
+        },
+        {
+          "status": "already_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "primary_confirmed"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "primary_reply_lost"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "primary_reply_lost"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "primary_reply_lost"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "primary_reply_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "primary_arrives_after_switch"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "primary_arrives_after_switch"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "status": "primary",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "primary_arrives_after_switch"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "primary_arrives_after_switch"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "primary_unreachable_with_late_arrival"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "step": "offline"
+        },
+        {
+          "status": "primary",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "primary_unreachable_with_late_arrival"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "step": "offline"
+        },
+        {
+          "status": "primary",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "primary_unreachable_with_late_arrival"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "step": "offline"
+        },
+        {
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "primary_unreachable_with_late_arrival"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "primary_unreachable_without_effect"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "step": "offline"
+        },
+        {
+          "status": "primary",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "primary_unreachable_without_effect"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "step": "offline"
+        },
+        {
+          "status": "primary",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "primary_unreachable_without_effect"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "step": "offline"
+        },
+        {
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "primary_unreachable_without_effect"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "ordinary_fence_blocks_late_arrival"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "ordinary_fence_blocks_late_arrival"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "ordinary_fence_blocks_late_arrival"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "ordinary_fence_blocks_late_arrival"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "epoch": 3,
+          "step": "regrant"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_fresh_arrival"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "ordinary_fence_then_regrant"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "epoch": 3,
+          "step": "regrant"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_fresh_arrival"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "ordinary_fence_then_regrant"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "epoch": 3,
+          "step": "regrant"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_fresh_arrival"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "ordinary_fence_then_regrant"
+    },
+    {
+      "confirmed_provider": null,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "epoch": 3,
+          "step": "regrant"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "a_fresh_arrival"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "ordinary_fence_then_regrant"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "permanent_retirement_blocks_late_arrival"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "permanent_retirement_blocks_late_arrival"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "permanent_retirement_blocks_late_arrival"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "permanent_retirement_blocks_late_arrival"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "had_prior_effect": true,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "preexisting_effect_at_retirement"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "had_prior_effect": true,
+          "step": "retire"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "preexisting_effect_at_retirement"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "had_prior_effect": true,
+          "step": "retire"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "preexisting_effect_at_retirement"
+    },
+    {
+      "confirmed_provider": "primary",
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "effect_id": 1,
+          "step": "a_arrive"
+        },
+        {
+          "had_prior_effect": true,
+          "step": "retire"
+        },
+        {
+          "status": "primary_confirmed",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "preexisting_effect_at_retirement"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "retirement_response_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "retirement_response_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "retirement_response_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "retirement_response_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "step": "online"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "retirement_hidden_then_recovered"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "primary",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "step": "online"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "retirement_hidden_then_recovered"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "primary",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "step": "online"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "retirement_hidden_then_recovered"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "unknown",
+          "step": "recover"
+        },
+        {
+          "step": "b_arrive"
+        },
+        {
+          "step": "online"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "retirement_hidden_then_recovered"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "restart_after_route_commit"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "restart_after_route_commit"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "restart_after_route_commit"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "restart_after_route_commit"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "permanently_blocked",
+          "step": "regrant"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "no_dispatch",
+          "step": "a_fresh_arrival"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "regrant_after_permanent_retirement"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "permanently_blocked",
+          "step": "regrant"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "no_dispatch",
+          "step": "a_fresh_arrival"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "regrant_after_permanent_retirement"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "permanently_blocked",
+          "step": "regrant"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "no_dispatch",
+          "step": "a_fresh_arrival"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "regrant_after_permanent_retirement"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "permanently_blocked",
+          "step": "regrant"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "no_dispatch",
+          "step": "a_fresh_arrival"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "regrant_after_permanent_retirement"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "repeated_recovery_and_secondary_retry"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "repeated_recovery_and_secondary_retry"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "repeated_recovery_and_secondary_retry"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "repeated_recovery_and_secondary_retry"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_silent"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "step": "b_confirm"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "secondary_commit_reply_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_silent"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "step": "b_confirm"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "secondary_commit_reply_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_silent"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "step": "b_confirm"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "secondary_commit_reply_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_silent"
+        },
+        {
+          "step": "restart"
+        },
+        {
+          "step": "offline"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "step": "b_confirm"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "secondary_commit_reply_lost"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "timeout_switch",
+      "scenario": "ordinary_fence_upgraded_to_retirement"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "lookup_switch",
+      "scenario": "ordinary_fence_upgraded_to_retirement"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "generation_fence_switch",
+      "scenario": "ordinary_fence_upgraded_to_retirement"
+    },
+    {
+      "confirmed_provider": "secondary",
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "epoch": 2,
+          "step": "fence"
+        },
+        {
+          "had_prior_effect": false,
+          "step": "retire"
+        },
+        {
+          "status": "secondary",
+          "step": "recover"
+        },
+        {
+          "effect_id": 1,
+          "step": "b_arrive"
+        },
+        {
+          "status": "denied",
+          "step": "a_arrive"
+        }
+      ],
+      "policy": "permanent_retirement_switch",
+      "scenario": "ordinary_fence_upgraded_to_retirement"
+    }
+  ],
+  "schema": "resumecert-provider-failover-v1",
+  "summary": {
+    "generation_fence_switch": {
+      "clean_confirmed": 12,
+      "duplicate": 1,
+      "secondary_used": 10,
+      "unresolved": 3
+    },
+    "lookup_switch": {
+      "clean_confirmed": 12,
+      "duplicate": 2,
+      "secondary_used": 11,
+      "unresolved": 2
+    },
+    "permanent_retirement_switch": {
+      "clean_confirmed": 11,
+      "duplicate": 0,
+      "secondary_used": 8,
+      "unresolved": 5
+    },
+    "timeout_switch": {
+      "clean_confirmed": 11,
+      "duplicate": 5,
+      "secondary_used": 15,
+      "unresolved": 0
+    }
+  }
+}
