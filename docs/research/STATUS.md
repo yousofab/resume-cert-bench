@@ -18,6 +18,8 @@
 
 - [Destination revocation](DESTINATION_REVOCATION_V1.md) compares commit-time fencing, sender rechecks and separate receipt recovery in 56 executable cases.
 
+- [Provider failover](PROVIDER_FAILOVER_V1.md) compares reopenable fences and permanent retirement across 64 runs with two independent destinations.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

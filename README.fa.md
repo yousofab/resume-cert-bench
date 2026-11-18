@@ -24,6 +24,10 @@
 
 در ۵۶ اجرای آزمایشی، کنترل اتمی نسل مجوز در SQLite جلوی ثبت تحت مجوز بسته یا قدیمی را گرفت. مسیر مستقل بازیابی رسید نیز نتیجهٔ اثرهای پیشین را پس از لغو گزارش داد. [گزارش فارسی](docs/research/DESTINATION_REVOCATION_V1_FA.md)
 
+## انتقال به مقصد جایگزین
+
+در ۶۴ اجرای آزمایشی، انتقال پس از گواه نبود اثر و بسته‌شدن دائمی عملیات در مقصد اول، هیچ ثبت تکراری بین دو مقصد ایجاد نکرد. [گزارش فارسی و ردپاها](docs/research/PROVIDER_FAILOVER_V1_FA.md)
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -51,4 +55,5 @@ python scripts/run_archive_transfer.py --check results
 python scripts/run_archive_repair.py --check results
 python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
 python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
+python scripts/run_provider_failover.py --check results/provider_failover_v1.json
 ```

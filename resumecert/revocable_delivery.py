@@ -115,20 +115,24 @@ def revoke(connection, notice, expected_epoch):
     if type(expected_epoch) is not int or expected_epoch < 1:
         raise ValueError("invalid expected epoch")
     with write_transaction(connection):
-        previous = fence_status(connection, notice, expected_epoch)
-        if previous is not None:
-            return previous
-        if authority(connection, notice) != (expected_epoch, True):
-            raise DispatchDenied("revocation does not match the active generation")
-        effect = reconcile(connection, notice)
-        closed_epoch = expected_epoch + 1
-        connection.execute("UPDATE handoff_authority SET epoch = ?, active = 0 WHERE operation_key = ?",
-                           (closed_epoch, notice.operation_key))
-        connection.execute("INSERT INTO handoff_fences VALUES (?, ?, ?, ?, ?)",
-                           (notice.operation_key, expected_epoch, closed_epoch,
-                            effect.receipt.effect_id if effect else None,
-                            effect.accepted_epoch if effect else None))
-        return Fence(notice.operation_key, notice.payload_digest, expected_epoch, closed_epoch, effect)
+        return _revoke_in_transaction(connection, notice, expected_epoch)
+
+
+def _revoke_in_transaction(connection, notice, expected_epoch):
+    previous = fence_status(connection, notice, expected_epoch)
+    if previous is not None:
+        return previous
+    if authority(connection, notice) != (expected_epoch, True):
+        raise DispatchDenied("revocation does not match the active generation")
+    effect = reconcile(connection, notice)
+    closed_epoch = expected_epoch + 1
+    connection.execute("UPDATE handoff_authority SET epoch = ?, active = 0 WHERE operation_key = ?",
+                       (closed_epoch, notice.operation_key))
+    connection.execute("INSERT INTO handoff_fences VALUES (?, ?, ?, ?, ?)",
+                       (notice.operation_key, expected_epoch, closed_epoch,
+                        effect.receipt.effect_id if effect else None,
+                        effect.accepted_epoch if effect else None))
+    return Fence(notice.operation_key, notice.payload_digest, expected_epoch, closed_epoch, effect)
 
 
 def regrant(connection, notice, closed_epoch):

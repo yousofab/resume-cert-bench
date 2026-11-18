@@ -48,6 +48,10 @@ A two-store SQLite experiment connects verified archive commits to a durable out
 
 A queued synthetic handoff can lose its dispatch authority before arriving. The [study](docs/research/DESTINATION_REVOCATION_V1.md) compares a destination-side generation fence with sender checks and shows how an independent receipt lookup can recover an existing effect after revocation.
 
+## Failover between independent providers
+
+Two destinations may each honor the same idempotency key and still produce two effects. The [64-run study](docs/research/PROVIDER_FAILOVER_V1.md) evaluates the tradeoff of waiting for proof of no effect and permanent primary retirement before enabling a secondary.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -64,6 +68,7 @@ python scripts/run_archive_transfer.py --check results
 python scripts/run_archive_repair.py --check results
 python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
 python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
+python scripts/run_provider_failover.py --check results/provider_failover_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.
