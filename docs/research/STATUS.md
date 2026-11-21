@@ -20,6 +20,8 @@
 
 - [Provider failover](PROVIDER_FAILOVER_V1.md) compares reopenable fences and permanent retirement across 64 runs with two independent destinations.
 
+- [Retention and restore](RETENTION_V1.md) evaluates independent prefix closure across 54 runs. It preserves closed-prefix rejection after metadata cleanup and offline provider-image restore, and includes a failing unclosed-tail control.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |
