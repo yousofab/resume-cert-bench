@@ -64,11 +64,15 @@ def create_destination(connection):
 def register(connection, notice):
     """Bind a stable key to one payload and initialize the first authorization."""
     with write_transaction(connection):
-        connection.execute("""
-            INSERT INTO handoff_authority VALUES (?, ?, 1, 1)
-            ON CONFLICT(operation_key) DO NOTHING
-        """, (notice.operation_key, notice.payload_digest))
-        return authority(connection, notice)[0]
+        return _register_in_transaction(connection, notice)
+
+
+def _register_in_transaction(connection, notice):
+    connection.execute("""
+        INSERT INTO handoff_authority VALUES (?, ?, 1, 1)
+        ON CONFLICT(operation_key) DO NOTHING
+    """, (notice.operation_key, notice.payload_digest))
+    return authority(connection, notice)[0]
 
 
 def authority(connection, notice):
@@ -156,13 +160,17 @@ def apply(connection, notice, epoch):
     if type(epoch) is not int or epoch < 1:
         raise ValueError("invalid dispatch epoch")
     with write_transaction(connection):
-        if authority(connection, notice) != (epoch, True):
-            raise DispatchDenied("dispatch authority is stale or closed")
-        effect = reconcile(connection, notice)
-        if effect is not None:
-            return effect
-        row = connection.execute("""
-            INSERT INTO handoff_effects (operation_key, payload_digest, payload, accepted_epoch)
-            VALUES (?, ?, ?, ?)
-        """, (notice.operation_key, notice.payload_digest, notice.payload, epoch))
-        return _recorded(notice, row.lastrowid, epoch)
+        return _apply_in_transaction(connection, notice, epoch)
+
+
+def _apply_in_transaction(connection, notice, epoch):
+    if authority(connection, notice) != (epoch, True):
+        raise DispatchDenied("dispatch authority is stale or closed")
+    effect = reconcile(connection, notice)
+    if effect is not None:
+        return effect
+    row = connection.execute("""
+        INSERT INTO handoff_effects (operation_key, payload_digest, payload, accepted_epoch)
+        VALUES (?, ?, ?, ?)
+    """, (notice.operation_key, notice.payload_digest, notice.payload, epoch))
+    return _recorded(notice, row.lastrowid, epoch)

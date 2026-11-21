@@ -1,0 +1,2685 @@
+{
+  "runs": [
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "retained_retry"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "retained_retry"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "retained_retry"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "retained_receipt_recovery"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "retained_receipt_recovery"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "retained_receipt_recovery"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "replay_after_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "replay_after_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "replay_after_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "unseen_sequence_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 0,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 0,
+      "observed_effects": [],
+      "policy": "co_restored_floor",
+      "scenario": "unseen_sequence_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 0,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 0,
+      "observed_effects": [],
+      "policy": "independent_floor",
+      "scenario": "unseen_sequence_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "383568e71d9b304fdb39b8cabd18845170f11e50426bbc0c38bdca2eb6a965f1",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "next_apply"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 3,
+          "provider": "primary",
+          "receipt_id": 2,
+          "retained_operation_rows": 6,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 3,
+          "resolution": "recorded",
+          "retained_operation_rows": 6,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "383568e71d9b304fdb39b8cabd18845170f11e50426bbc0c38bdca2eb6a965f1"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "next_sequence_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "383568e71d9b304fdb39b8cabd18845170f11e50426bbc0c38bdca2eb6a965f1",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "next_apply"
+        },
+        {
+          "oracle_effects": 2,
+          "retained_operation_rows": 3,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "forgotten",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "383568e71d9b304fdb39b8cabd18845170f11e50426bbc0c38bdca2eb6a965f1"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "next_sequence_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "383568e71d9b304fdb39b8cabd18845170f11e50426bbc0c38bdca2eb6a965f1",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "next_apply"
+        },
+        {
+          "oracle_effects": 2,
+          "retained_operation_rows": 3,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "forgotten",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "383568e71d9b304fdb39b8cabd18845170f11e50426bbc0c38bdca2eb6a965f1"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "next_sequence_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "repeated_cleanup_and_retry"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "repeated_cleanup_and_retry"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "repeated_cleanup_and_retry"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "unregistered",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "recorded_outcome_forgotten"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "recorded_outcome_forgotten"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "recorded_outcome_forgotten"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 0,
+          "resolution": "unregistered",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 0,
+      "observed_effects": [],
+      "policy": "delete_only",
+      "scenario": "empty_outcome_forgotten"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 0,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 0,
+      "observed_effects": [],
+      "policy": "co_restored_floor",
+      "scenario": "empty_outcome_forgotten"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "deleted_rows": 0,
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 0,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 0,
+      "observed_effects": [],
+      "policy": "independent_floor",
+      "scenario": "empty_outcome_forgotten"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "provider_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "provider_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "provider_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 3,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 3,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 3,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "repeated_provider_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 3,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 3,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 3,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "repeated_provider_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "repeated_provider_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "source_restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "source_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "source_restore"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "source_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "source_restore"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "source_restore_after_close"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "secondary",
+          "receipt_id": 1,
+          "retained_operation_rows": 4,
+          "step": "failover"
+        },
+        {
+          "deleted_rows": 4,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "secondary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "retirement_restore_after_failover"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "secondary",
+          "receipt_id": 1,
+          "retained_operation_rows": 4,
+          "step": "failover"
+        },
+        {
+          "deleted_rows": 4,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "secondary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "retirement_restore_after_failover"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "secondary",
+          "receipt_id": 1,
+          "retained_operation_rows": 4,
+          "step": "failover"
+        },
+        {
+          "deleted_rows": 4,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "secondary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "retirement_restore_after_failover"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "close_fail"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "crash_after_anchor_before_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "status": "provider_rolled_back_after_anchor_commit",
+          "step": "close_fail"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "crash_after_anchor_before_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "status": "provider_rolled_back_after_anchor_commit",
+          "step": "close_fail"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "crash_after_anchor_before_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "guard_offline"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "guard_unavailable",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "guard_unavailable",
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "guard_unavailable_after_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "guard_offline"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "guard_unavailable",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "guard_unavailable",
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "guard_unavailable_after_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "guard_offline"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "guard_unavailable",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "guard_unavailable",
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "guard_unavailable_after_cleanup"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "binding_rejected",
+          "step": "rebind"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "unregistered",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "changed_sequence_rejected"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "binding_rejected",
+          "step": "rebind"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "changed_sequence_rejected"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "status": "binding_rejected",
+          "step": "rebind"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "forgotten",
+          "retained_operation_rows": 0,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "changed_sequence_rejected"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": true,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "b22fb2055fec0eb0087b561309cbcaefaa71bc7e1f1f5428556783495320acde",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "other_apply"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 3,
+          "provider": "primary",
+          "receipt_id": 2,
+          "retained_operation_rows": 6,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 3,
+          "resolution": "recorded",
+          "retained_operation_rows": 6,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "b22fb2055fec0eb0087b561309cbcaefaa71bc7e1f1f5428556783495320acde"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "independent_stream_open"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "b22fb2055fec0eb0087b561309cbcaefaa71bc7e1f1f5428556783495320acde",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "other_apply"
+        },
+        {
+          "oracle_effects": 2,
+          "retained_operation_rows": 3,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "forgotten",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "b22fb2055fec0eb0087b561309cbcaefaa71bc7e1f1f5428556783495320acde"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "independent_stream_open"
+    },
+    {
+      "closed_prefix_case": true,
+      "duplicate": false,
+      "events": [
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "compact"
+        },
+        {
+          "created": true,
+          "operation_key": "b22fb2055fec0eb0087b561309cbcaefaa71bc7e1f1f5428556783495320acde",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "other_apply"
+        },
+        {
+          "oracle_effects": 2,
+          "retained_operation_rows": 3,
+          "status": "closed",
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "forgotten",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "b22fb2055fec0eb0087b561309cbcaefaa71bc7e1f1f5428556783495320acde"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "independent_stream_open"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "unclosed_provider_restore_control"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "unclosed_provider_restore_control"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": true,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 0,
+          "step": "restore"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 2,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 2,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 2,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ],
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "unclosed_provider_restore_control"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "source_restore"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "delete_only",
+      "scenario": "unclosed_source_restore_control"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "source_restore"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "co_restored_floor",
+      "scenario": "unclosed_source_restore_control"
+    },
+    {
+      "closed_prefix_case": false,
+      "duplicate": false,
+      "events": [
+        {
+          "oracle_effects": 0,
+          "retained_operation_rows": 0,
+          "step": "snapshot"
+        },
+        {
+          "created": true,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_apply"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "a_confirm"
+        },
+        {
+          "oracle_effects": 1,
+          "retained_operation_rows": 3,
+          "step": "source_restore"
+        },
+        {
+          "created": false,
+          "operation_key": "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0",
+          "oracle_effects": 1,
+          "provider": "primary",
+          "receipt_id": 1,
+          "retained_operation_rows": 3,
+          "step": "a_retry"
+        },
+        {
+          "oracle_effects": 1,
+          "resolution": "recorded",
+          "retained_operation_rows": 3,
+          "step": "lookup"
+        }
+      ],
+      "first_operation_effects": 1,
+      "observed_effects": [
+        [
+          "primary",
+          "24797e70e5104b974264594af193d62d54c4491748c37064e36dc5d403ba5db0"
+        ]
+      ],
+      "policy": "independent_floor",
+      "scenario": "unclosed_source_restore_control"
+    }
+  ],
+  "schema": "resumecert-retention-v1",
+  "summary": {
+    "co_restored_floor": {
+      "blocked_attempts": 7,
+      "closed_prefix_duplicate_runs": 4,
+      "duplicate_runs": 5,
+      "forgotten_lookups": 9,
+      "runs": 18
+    },
+    "delete_only": {
+      "blocked_attempts": 0,
+      "closed_prefix_duplicate_runs": 9,
+      "duplicate_runs": 10,
+      "forgotten_lookups": 0,
+      "runs": 18
+    },
+    "independent_floor": {
+      "blocked_attempts": 12,
+      "closed_prefix_duplicate_runs": 0,
+      "duplicate_runs": 1,
+      "forgotten_lookups": 13,
+      "runs": 18
+    }
+  }
+}

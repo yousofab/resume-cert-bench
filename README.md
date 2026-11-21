@@ -52,6 +52,10 @@ A queued synthetic handoff can lose its dispatch authority before arriving. The 
 
 Two destinations may each honor the same idempotency key and still produce two effects. The [64-run study](docs/research/PROVIDER_FAILOVER_V1.md) evaluates the tradeoff of waiting for proof of no effect and permanent primary retirement before enabling a secondary.
 
+## Retention after cleanup and restore
+
+Deleting old recovery records can admit a delayed request again. The [54-run study](docs/research/RETENTION_V1.md) retains a compact independent closure boundary before cleanup. It also demonstrates the remaining duplicate risk for unclosed operations whose recovery image is restored backwards.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -69,6 +73,7 @@ python scripts/run_archive_repair.py --check results
 python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
 python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
 python scripts/run_provider_failover.py --check results/provider_failover_v1.json
+python scripts/run_retention.py --check results/retention_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.

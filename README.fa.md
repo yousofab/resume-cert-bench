@@ -28,6 +28,10 @@
 
 در ۶۴ اجرای آزمایشی، انتقال پس از گواه نبود اثر و بسته‌شدن دائمی عملیات در مقصد اول، هیچ ثبت تکراری بین دو مقصد ایجاد نکرد. [گزارش فارسی و ردپاها](docs/research/PROVIDER_FAILOVER_V1_FA.md)
 
+## پاک‌سازی سوابق و بازیابی نسخهٔ قدیمی
+
+در ۵۴ اجرا، مرز مستقلِ بسته‌شدن پیشوند جلوی بازاجرای عملیات بسته را پس از حذف یا بازیابی سوابق گرفت. کنترل مرزی، خطر باقی‌مانده برای عملیات هنوز باز را نشان داد. [گزارش فارسی و حدود نتیجه](docs/research/RETENTION_V1_FA.md)
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -56,4 +60,5 @@ python scripts/run_archive_repair.py --check results
 python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
 python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
 python scripts/run_provider_failover.py --check results/provider_failover_v1.json
+python scripts/run_retention.py --check results/retention_v1.json
 ```
