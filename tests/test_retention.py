@@ -108,10 +108,19 @@ class RetentionTests(unittest.TestCase):
         pinned = self.guard.execute("SELECT * FROM retention_anchors ORDER BY stream_id")
         pinned.fetchone()  # Leave another row pending, holding an implicit read snapshot.
         self.assertFalse(self.guard.in_transaction)
+        self.provider.executescript("""
+            CREATE TRIGGER fixture_keep_old_local_floor BEFORE UPDATE ON retention_streams
+            BEGIN SELECT RAISE(ABORT, 'keep the old local image'); END;
+        """)
         with closing(connect(self.guard_path)) as writer:
-            retention.close_prefix(self.provider, writer, "test-source", 1)
+            with self.assertRaisesRegex(sqlite3.IntegrityError, "keep the old local image"):
+                retention.close_prefix(self.provider, writer, "test-source", 1)
+        self.provider.execute("DROP TRIGGER fixture_keep_old_local_floor")
+        self.assertEqual(self.provider.execute("SELECT closed_through FROM retention_streams "
+                                               "WHERE stream_id = 'test-source'").fetchone(), (0,))
         with self.assertRaises(retention.PrefixClosed):
             retention.apply(self.provider, self.guard, self.message, self.dispatch)
+        self.assertEqual(pinned.fetchone(), ("primary", "test-source", 0))
         pinned.close()
 
     def test_real_exit_after_anchor_commit_preserves_closure_without_local_cleanup(self):
