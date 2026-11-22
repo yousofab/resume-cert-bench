@@ -22,6 +22,8 @@
 
 - [Retention and restore](RETENTION_V1.md) evaluates independent prefix closure across 54 runs. It preserves closed-prefix rejection after metadata cleanup and offline provider-image restore, and includes a failing unclosed-tail control.
 
+- [Open-tail recovery](OPEN_TAIL_V1.md) evaluates independently retained write-ahead claims in 63 runs. It prevents new same-provider effects for claimed operations after recovery-image loss, while preserving unresolved outcomes and a failing guard-rollback control.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

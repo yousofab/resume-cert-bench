@@ -56,6 +56,10 @@ Two destinations may each honor the same idempotency key and still produce two e
 
 Deleting old recovery records can admit a delayed request again. The [54-run study](docs/research/RETENTION_V1.md) retains a compact independent closure boundary before cleanup. It also demonstrates the remaining duplicate risk for unclosed operations whose recovery image is restored backwards.
 
+## Recovery of the unclosed tail
+
+A receipt cache still has a gap between target commit and receipt persistence. The [63-run study](docs/research/OPEN_TAIL_V1.md) adds an independent pre-effect claim, prevents replay after provider-image loss, and reports the unresolved work it leaves behind. Rolling back the independent guard remains a failing boundary control.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -74,6 +78,7 @@ python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
 python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
 python scripts/run_provider_failover.py --check results/provider_failover_v1.json
 python scripts/run_retention.py --check results/retention_v1.json
+python scripts/run_open_tail.py --check results/open_tail_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.
