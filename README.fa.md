@@ -32,6 +32,10 @@
 
 در ۵۴ اجرا، مرز مستقلِ بسته‌شدن پیشوند جلوی بازاجرای عملیات بسته را پس از حذف یا بازیابی سوابق گرفت. کنترل مرزی، خطر باقی‌مانده برای عملیات هنوز باز را نشان داد. [گزارش فارسی و حدود نتیجه](docs/research/RETENTION_V1_FA.md)
 
+## بازیابی عملیات هنوز باز
+
+در ۶۳ اجرا، ثبت مستقل تلاش پیش از اثر، جلوی تکرار همان عملیات در همان مقصد را پس از از دست‌رفتن تصویر بازیابی گرفت. هشت وضعیت نامعلوم و کنترل مرزیِ بازگردانی دفتر مستقل نیز گزارش شده‌اند. [گزارش فارسی و هزینهٔ توقف کار](docs/research/OPEN_TAIL_V1_FA.md)
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -61,4 +65,5 @@ python scripts/run_archive_delivery.py --check results/archive_delivery_v1.json
 python scripts/run_destination_revocation.py --check results/destination_revocation_v1.json
 python scripts/run_provider_failover.py --check results/provider_failover_v1.json
 python scripts/run_retention.py --check results/retention_v1.json
+python scripts/run_open_tail.py --check results/open_tail_v1.json
 ```

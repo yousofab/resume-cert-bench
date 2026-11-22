@@ -55,3 +55,5 @@ jobs:
         run: python scripts/run_provider_failover.py --check results/provider_failover_v1.json
       - name: Reproduce retention, independent closure, and restore boundaries
         run: python scripts/run_retention.py --check results/retention_v1.json
+      - name: Reproduce open-tail claims and postcommit evidence gaps
+        run: python scripts/run_open_tail.py --check results/open_tail_v1.json

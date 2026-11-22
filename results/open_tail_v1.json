@@ -1,0 +1,3873 @@
+{
+  "runs": [
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "retained_retry",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "retained_retry",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "retained_retry",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "restore_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "restore_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "restore_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        3,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "repeated_restore_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "repeated_restore_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "repeated_restore_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "unsealed_retained",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "unsealed_retained",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "unsealed_retained",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "unsealed_restored",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "unsealed_restored",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "unknown",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "recovery_view": {
+        "guard.open_tail_claims": [
+          [
+            "primary",
+            "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+            "open-tail-study",
+            1,
+            "2e44548620880e105cb99f41e63382a87917ab95b3574879bbc568465d11c366",
+            1,
+            null
+          ]
+        ],
+        "guard.retention_anchors": [
+          [
+            "primary",
+            "open-tail-study",
+            0
+          ]
+        ],
+        "provider.handoff_authority": [
+          [
+            "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+            "ef2d913145e40d91d4986319f164a6ec1ed36aa3624b138cb087373770877419",
+            1,
+            1
+          ],
+          [
+            "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+            "2e44548620880e105cb99f41e63382a87917ab95b3574879bbc568465d11c366",
+            1,
+            1
+          ]
+        ],
+        "provider.handoff_effects": [],
+        "provider.handoff_fences": [],
+        "provider.permanent_retirements": [],
+        "provider.provider_identity": [
+          [
+            1,
+            "primary"
+          ]
+        ],
+        "provider.retention_bindings": [
+          [
+            "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+            "open-tail-study",
+            2
+          ],
+          [
+            "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+            "open-tail-study",
+            1
+          ]
+        ],
+        "provider.retention_streams": [
+          [
+            "open-tail-study",
+            0
+          ]
+        ],
+        "source.notice_outbox": [
+          [
+            1,
+            "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+            "{\"archive_id\":1,\"kind\":\"archive-notice/v1\",\"label\":\"Synthetic open-tail packet\"}",
+            "pending",
+            null
+          ],
+          [
+            2,
+            "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+            "{\"archive_id\":2,\"kind\":\"archive-notice/v1\",\"label\":\"Synthetic open-tail packet\"}",
+            "pending",
+            null
+          ]
+        ]
+      },
+      "scenario": "unsealed_restored",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        3,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "repeated_unsealed_restored",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "repeated_unsealed_restored",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "unknown",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "repeated_unsealed_restored",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "injected target write failure",
+          "step": "fail_effect"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "failed_effect_retained",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "injected target write failure",
+          "step": "fail_effect"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "failed_effect_retained",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "injected target write failure",
+          "step": "fail_effect"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "unknown",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "unknown",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "unknown",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "failed_effect_retained",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "injected target write failure",
+          "step": "fail_effect"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "failed_effect_restored",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "injected target write failure",
+          "step": "fail_effect"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "failed_effect_restored",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "injected target write failure",
+          "step": "fail_effect"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "unknown",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "unknown",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "unknown",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "recovery_view": {
+        "guard.open_tail_claims": [
+          [
+            "primary",
+            "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+            "open-tail-study",
+            1,
+            "2e44548620880e105cb99f41e63382a87917ab95b3574879bbc568465d11c366",
+            1,
+            null
+          ]
+        ],
+        "guard.retention_anchors": [
+          [
+            "primary",
+            "open-tail-study",
+            0
+          ]
+        ],
+        "provider.handoff_authority": [
+          [
+            "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+            "ef2d913145e40d91d4986319f164a6ec1ed36aa3624b138cb087373770877419",
+            1,
+            1
+          ],
+          [
+            "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+            "2e44548620880e105cb99f41e63382a87917ab95b3574879bbc568465d11c366",
+            1,
+            1
+          ]
+        ],
+        "provider.handoff_effects": [],
+        "provider.handoff_fences": [],
+        "provider.permanent_retirements": [],
+        "provider.provider_identity": [
+          [
+            1,
+            "primary"
+          ]
+        ],
+        "provider.retention_bindings": [
+          [
+            "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+            "open-tail-study",
+            2
+          ],
+          [
+            "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+            "open-tail-study",
+            1
+          ]
+        ],
+        "provider.retention_streams": [
+          [
+            "open-tail-study",
+            0
+          ]
+        ],
+        "source.notice_outbox": [
+          [
+            1,
+            "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+            "{\"archive_id\":1,\"kind\":\"archive-notice/v1\",\"label\":\"Synthetic open-tail packet\"}",
+            "pending",
+            null
+          ],
+          [
+            2,
+            "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+            "{\"archive_id\":2,\"kind\":\"archive-notice/v1\",\"label\":\"Synthetic open-tail packet\"}",
+            "pending",
+            null
+          ]
+        ]
+      },
+      "scenario": "failed_effect_restored",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "offline"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "guard_unavailable",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "online"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "unavailable_guard_then_resume",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "offline"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "guard_unavailable",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "online"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "unavailable_guard_then_resume",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "offline"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "outcome": "guard_unavailable",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "online"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "unavailable_guard_then_resume",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "offline"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "guard_unavailable",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "online"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "unavailable_guard_after_effect_restore",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "offline"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "guard_unavailable",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "online"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "unavailable_guard_after_effect_restore",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "offline"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "guard_unavailable",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "online"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "unknown",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "unavailable_guard_after_effect_restore",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "fail_seal"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "seal_failure_retained",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "injected seal failure",
+          "step": "fail_seal"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "seal_failure_retained",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "injected seal failure",
+          "step": "fail_seal"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "seal_failure_retained",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "fail_seal"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "seal_failure_restored",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "injected seal failure",
+          "step": "fail_seal"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "seal_failure_restored",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "injected seal failure",
+          "step": "fail_seal"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "unknown",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "seal_failure_restored",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "pristine_restore",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "pristine_restore",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "pristine_restore",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        1
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+              "receipt_id": 2
+            }
+          ],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "step": "next"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "unknown_does_not_block_next",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        1
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+              "receipt_id": 2
+            }
+          ],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "step": "next"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "unknown_does_not_block_next",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 2,
+          "created": [
+            {
+              "operation_key": "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "next"
+        },
+        {
+          "claim_rows": 2,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "unknown",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "unknown",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "unknown_does_not_block_next",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        1
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "next"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 2
+            }
+          ],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 3,
+          "outcome": "recorded",
+          "receipt_id": 2,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "historical_receipt_after_id_reuse",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "next"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "historical_receipt_after_id_reuse",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 2,
+          "created": [
+            {
+              "operation_key": "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "next"
+        },
+        {
+          "claim_rows": 2,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 2,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "historical_receipt_after_id_reuse",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "raw_arrival"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "raw_replay_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "raw_arrival"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "raw_replay_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "open-tail claim already exists",
+          "step": "raw_arrival"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "raw_replay_completed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "raw_arrival"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "raw_replay_unsealed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "raw_arrival"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "raw_replay_unsealed",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "open-tail claim already exists",
+          "step": "raw_arrival"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "unknown",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "unknown",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "raw_replay_unsealed",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "step": "compact"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "closed",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "forgotten",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "forgotten",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "compact_completed",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "step": "compact"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "closed",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "forgotten",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "forgotten",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "compact_completed",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "deleted_rows": 4,
+          "oracle_effects": 1,
+          "step": "compact"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "closed",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "forgotten",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "forgotten",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "compact_completed",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "step": "compact"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "closed",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "forgotten",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "forgotten",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "compact_unknown",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "deleted_rows": 3,
+          "oracle_effects": 1,
+          "step": "compact"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "closed",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "forgotten",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "forgotten",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "compact_unknown",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "deleted_rows": 4,
+          "oracle_effects": 1,
+          "step": "compact"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "closed",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "forgotten",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "forgotten",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "compact_unknown",
+      "source_status": "pending"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "revoke"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "dispatch_denied",
+          "step": "retry"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "revoked_with_retained_receipt",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "revoke"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "revoked_with_retained_receipt",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_operation": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "reply_unsealed",
+          "receipt_id": 1,
+          "step": "unsealed"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "revoke"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "retry"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "revoked_with_retained_receipt",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": true,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore_all"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "prefix_floor_only",
+      "scenario": "guard_rollback_boundary_control",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": true,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore_all"
+        },
+        {
+          "claim_rows": 0,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "postcommit_cache",
+      "scenario": "guard_rollback_boundary_control",
+      "source_status": "sent"
+    },
+    {
+      "boundary_control": true,
+      "effects_by_operation": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 0,
+          "step": "snapshot"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 1,
+          "outcome": "recorded",
+          "step": "apply"
+        },
+        {
+          "claim_rows": 0,
+          "created": [],
+          "oracle_effects": 1,
+          "step": "restore_all"
+        },
+        {
+          "claim_rows": 1,
+          "created": [
+            {
+              "operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+              "receipt_id": 1
+            }
+          ],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "step": "retry"
+        },
+        {
+          "claim_rows": 1,
+          "created": [],
+          "oracle_effects": 2,
+          "outcome": "recorded",
+          "receipt_id": 1,
+          "receipt_operation_key": "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+          "step": "recover"
+        }
+      ],
+      "final_recovery": "recorded",
+      "operation_keys": [
+        "f6cce6c28094a48cb0563b90fbf20d455489136bf7127f584cff2fc1ee789fa5",
+        "f236c08ceb4dd5da2a04d21e9f8c17a33d64a5aca480c1d8f62b76020c1f6d27"
+      ],
+      "policy": "write_ahead_claim",
+      "scenario": "guard_rollback_boundary_control",
+      "source_status": "sent"
+    }
+  ],
+  "schema": "resumecert-open-tail-v1",
+  "summary": {
+    "postcommit_cache": {
+      "duplicate_runs": 8,
+      "forgotten": 2,
+      "known_single": 11,
+      "runs": 21,
+      "supported_duplicate_runs": 7,
+      "unknown_with_effect": 0,
+      "unknown_without_effect": 0
+    },
+    "prefix_floor_only": {
+      "duplicate_runs": 11,
+      "forgotten": 2,
+      "known_single": 8,
+      "runs": 21,
+      "supported_duplicate_runs": 10,
+      "unknown_with_effect": 0,
+      "unknown_without_effect": 0
+    },
+    "write_ahead_claim": {
+      "duplicate_runs": 1,
+      "forgotten": 2,
+      "known_single": 10,
+      "runs": 21,
+      "supported_duplicate_runs": 0,
+      "unknown_with_effect": 6,
+      "unknown_without_effect": 2
+    }
+  }
+}
