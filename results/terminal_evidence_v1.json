@@ -1,0 +1,4795 @@
+{
+  "runs": [
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "committed_receipt_missing",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "committed_receipt_missing",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "committed_receipt_missing",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "lookup_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "1fc047762e6667f6524d011a1fda15ec84df4433bec76f24ce54762a88fa5c57",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":null,\"epoch\":1,\"kind\":\"lookup_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "late_after_negative_lookup",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": "secondary",
+      "duplicate": true,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "lookup_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "1fc047762e6667f6524d011a1fda15ec84df4433bec76f24ce54762a88fa5c57",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":null,\"epoch\":1,\"kind\":\"lookup_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            1,
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "late_after_negative_lookup",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "lookup_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "1fc047762e6667f6524d011a1fda15ec84df4433bec76f24ce54762a88fa5c57",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":null,\"epoch\":1,\"kind\":\"lookup_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "insufficient_terminal_evidence",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "late_after_negative_lookup",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "terminal_empty",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "terminal_empty",
+      "unresolved": false
+    },
+    {
+      "additional_evidence_witness": {
+        "legacy_claims": [
+          [
+            "primary",
+            "e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb",
+            "terminal-evidence-study",
+            1,
+            "42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711",
+            1,
+            null
+          ]
+        ],
+        "legacy_effects": [],
+        "legacy_outcome": "unknown",
+        "legacy_projection": [
+          [
+            "e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb",
+            "42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711",
+            1,
+            1
+          ]
+        ],
+        "legacy_source": [
+          [
+            1,
+            "e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb",
+            "{\"archive_id\":1,\"kind\":\"archive-notice/v1\",\"label\":\"Synthetic evidence-backed handoff\"}",
+            "pending",
+            null
+          ]
+        ],
+        "new_evidence_kind": "retired_empty"
+      },
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "terminal_empty",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "committed_before_terminal",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "committed_before_terminal",
+      "unresolved": false
+    },
+    {
+      "additional_evidence_witness": {
+        "legacy_claims": [
+          [
+            "primary",
+            "e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb",
+            "terminal-evidence-study",
+            1,
+            "42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711",
+            1,
+            null
+          ]
+        ],
+        "legacy_effects": [],
+        "legacy_outcome": "unknown",
+        "legacy_projection": [
+          [
+            "e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb",
+            "42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711",
+            1,
+            1
+          ]
+        ],
+        "legacy_source": [
+          [
+            1,
+            "e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb",
+            "{\"archive_id\":1,\"kind\":\"archive-notice/v1\",\"label\":\"Synthetic evidence-backed handoff\"}",
+            "pending",
+            null
+          ]
+        ],
+        "new_evidence_kind": "recorded"
+      },
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "committed_before_terminal",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "lookup_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "1fc047762e6667f6524d011a1fda15ec84df4433bec76f24ce54762a88fa5c57",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":null,\"epoch\":1,\"kind\":\"lookup_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "negative_lookup_then_commit",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": "secondary",
+      "duplicate": true,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "lookup_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "1fc047762e6667f6524d011a1fda15ec84df4433bec76f24ce54762a88fa5c57",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":null,\"epoch\":1,\"kind\":\"lookup_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            1,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "negative_lookup_then_commit",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "lookup_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "1fc047762e6667f6524d011a1fda15ec84df4433bec76f24ce54762a88fa5c57",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":null,\"epoch\":1,\"kind\":\"lookup_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "insufficient_terminal_evidence",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "negative_lookup_then_commit",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "terminal_proof_then_issuer_offline",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "terminal_proof_then_issuer_offline",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "terminal_proof_then_issuer_offline",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "issuer_channel_unavailable",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "no_provider_evidence",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "issuer_channel_unavailable",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "no_provider_evidence",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "issuer_channel_unavailable",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "no_provider_evidence",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "saved"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "saved_empty_after_source_restore",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "saved"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "saved_empty_after_source_restore",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "saved"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "saved_empty_after_source_restore",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "saved"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "saved_positive_after_source_restore",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "saved"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "saved_positive_after_source_restore",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "primary",
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "evidence": {
+            "mac": "fb8de0ac75f1afd5582b0a598ae4f9d3b3ef9f15e49c0c4deeb8997c21a03f6f",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "saved"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "saved_positive_after_source_restore",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_silent"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_attempt",
+          "step": "b_lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "secondary_reply_lost",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "b_silent"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "b_lookup"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "secondary_reply_lost",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "b_silent"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "b_lookup"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "consume"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "secondary_reply_lost",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "repeated_consumption_and_delivery",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "already_confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "repeated_consumption_and_delivery",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "already_confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "repeated_consumption_and_delivery",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "tamper"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "0cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "tampered_mac",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "tamper"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "0cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "tampered_mac",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "tamper"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "0cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "tampered_mac",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_operation"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "b7db39e0f242aac879b445827d6a20b7e53a2fc49895037ba4d129d7d8b84e08",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "valid_mac_wrong_operation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_operation"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "b7db39e0f242aac879b445827d6a20b7e53a2fc49895037ba4d129d7d8b84e08",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "valid_mac_wrong_operation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_operation"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "b7db39e0f242aac879b445827d6a20b7e53a2fc49895037ba4d129d7d8b84e08",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "valid_mac_wrong_operation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_payload"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "bce0ab10018c5f93ca332762c668384d1637e75bd8ee35a3ef71a39f4c87182c",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "valid_mac_wrong_payload",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_payload"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "bce0ab10018c5f93ca332762c668384d1637e75bd8ee35a3ef71a39f4c87182c",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "valid_mac_wrong_payload",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_payload"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "bce0ab10018c5f93ca332762c668384d1637e75bd8ee35a3ef71a39f4c87182c",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "valid_mac_wrong_payload",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_epoch"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "9b79abc84641e4854599c9792ad6396a1005c9818058c99be674211d8e944130",
+            "payload": "{\"closed_epoch\":4,\"effect_id\":null,\"epoch\":3,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "valid_mac_wrong_generation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_epoch"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "9b79abc84641e4854599c9792ad6396a1005c9818058c99be674211d8e944130",
+            "payload": "{\"closed_epoch\":4,\"effect_id\":null,\"epoch\":3,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "valid_mac_wrong_generation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_epoch"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "9b79abc84641e4854599c9792ad6396a1005c9818058c99be674211d8e944130",
+            "payload": "{\"closed_epoch\":4,\"effect_id\":null,\"epoch\":3,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "valid_mac_wrong_generation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_provider"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "a2003f4d963f8cdfb7ee687640d636f1fe709dfd9ce96725ff52a2c00b05ee24",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "valid_mac_wrong_provider",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_provider"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "a2003f4d963f8cdfb7ee687640d636f1fe709dfd9ce96725ff52a2c00b05ee24",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "valid_mac_wrong_provider",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_provider"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "a2003f4d963f8cdfb7ee687640d636f1fe709dfd9ce96725ff52a2c00b05ee24",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "valid_mac_wrong_provider",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_purpose"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "135f4bca06a4d8cffb1d683e0f81314a1cd0ee77d0c1aab341c0d4968f126e97",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "valid_mac_wrong_purpose",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_purpose"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "135f4bca06a4d8cffb1d683e0f81314a1cd0ee77d0c1aab341c0d4968f126e97",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "valid_mac_wrong_purpose",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_purpose"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "135f4bca06a4d8cffb1d683e0f81314a1cd0ee77d0c1aab341c0d4968f126e97",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"observation\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "valid_mac_wrong_purpose",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_closed"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "8200a0e5c9241a07a68a3d81480bff1f5d183a434aa2216ca5fc996389f34e9f",
+            "payload": "{\"closed_epoch\":8,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "valid_mac_wrong_closed_generation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_closed"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "8200a0e5c9241a07a68a3d81480bff1f5d183a434aa2216ca5fc996389f34e9f",
+            "payload": "{\"closed_epoch\":8,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "valid_mac_wrong_closed_generation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "wrong_closed"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "8200a0e5c9241a07a68a3d81480bff1f5d183a434aa2216ca5fc996389f34e9f",
+            "payload": "{\"closed_epoch\":8,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "evidence_rejected",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "valid_mac_wrong_closed_generation",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "issuer_channel_unavailable",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "online"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "issuer_channel_recovers",
+      "unresolved": true
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "issuer_channel_unavailable",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "online"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "issuer_channel_recovers",
+      "unresolved": false
+    },
+    {
+      "boundary_control": false,
+      "clean_confirmed": true,
+      "confirmed_provider": "secondary",
+      "duplicate": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "issuer_channel_unavailable",
+          "step": "lookup"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "online"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "issuer_channel_recovers",
+      "unresolved": false
+    },
+    {
+      "boundary_control": true,
+      "clean_confirmed": false,
+      "confirmed_provider": null,
+      "duplicate": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "consume"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_backend"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            1,
+            0
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "a_late"
+        }
+      ],
+      "policy": "hold_negative",
+      "scenario": "provider_rollback_boundary_control",
+      "unresolved": true
+    },
+    {
+      "boundary_control": true,
+      "clean_confirmed": false,
+      "confirmed_provider": "secondary",
+      "duplicate": true,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_backend"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            1,
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "a_late"
+        }
+      ],
+      "policy": "authenticated_lookup_release",
+      "scenario": "provider_rollback_boundary_control",
+      "unresolved": false
+    },
+    {
+      "boundary_control": true,
+      "clean_confirmed": false,
+      "confirmed_provider": "secondary",
+      "duplicate": true,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "terminal"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            0
+          ],
+          "evidence": {
+            "mac": "6cb6749ca155a8cfd65d7ddff98632d51c29928ec740774e929c7c8f342ca5a4",
+            "payload": "{\"closed_epoch\":2,\"effect_id\":null,\"epoch\":1,\"kind\":\"retired_empty\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"primary\",\"purpose\":\"terminal\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "consume"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "evidence": {
+            "mac": "5c5885d7e7e1e64e829a79d6d93b3f0b74ad39a55b32f3b746af136dd6cf7df6",
+            "payload": "{\"closed_epoch\":null,\"effect_id\":1,\"epoch\":1,\"kind\":\"recorded\",\"operation_key\":\"e38fdb11ad16f394cbaf3a2959c274b36416e7f5b76de8eaae9030775ff98efb\",\"payload_digest\":\"42f6b40c97b7a8796b165e62cf36f999e856bea05af0771678c0da5abc0f9711\",\"provider_id\":\"secondary\",\"purpose\":\"outcome\",\"version\":\"resumecert-provider-evidence/v1\"}"
+          },
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "b_apply"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            0,
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_backend"
+        },
+        {
+          "active_provider": "secondary",
+          "effects_by_provider": [
+            1,
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "a_late"
+        }
+      ],
+      "policy": "bound_terminal_release",
+      "scenario": "provider_rollback_boundary_control",
+      "unresolved": false
+    }
+  ],
+  "schema": "resumecert-terminal-evidence-v1",
+  "summary": {
+    "authenticated_lookup_release": {
+      "clean_confirmed": 9,
+      "duplicates": 3,
+      "runs": 20,
+      "supported_duplicates": 2,
+      "unresolved": 8,
+      "unresolved_empty": 7,
+      "unresolved_with_effect": 1
+    },
+    "bound_terminal_release": {
+      "clean_confirmed": 9,
+      "duplicates": 1,
+      "runs": 20,
+      "supported_duplicates": 0,
+      "unresolved": 10,
+      "unresolved_empty": 7,
+      "unresolved_with_effect": 3
+    },
+    "hold_negative": {
+      "clean_confirmed": 3,
+      "duplicates": 0,
+      "runs": 20,
+      "supported_duplicates": 0,
+      "unresolved": 17,
+      "unresolved_empty": 13,
+      "unresolved_with_effect": 4
+    }
+  }
+}
