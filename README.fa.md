@@ -36,6 +36,10 @@
 
 در ۶۳ اجرا، ثبت مستقل تلاش پیش از اثر، جلوی تکرار همان عملیات در همان مقصد را پس از از دست‌رفتن تصویر بازیابی گرفت. هشت وضعیت نامعلوم و کنترل مرزیِ بازگردانی دفتر مستقل نیز گزارش شده‌اند. [گزارش فارسی و هزینهٔ توقف کار](docs/research/OPEN_TAIL_V1_FA.md)
 
+## حل وضعیت نامعلوم با شاهد مقصد
+
+در مطالعهٔ ۶۰اجرایی، کنترلِ نوع و اتصال شاهد به عملیات، نتیجهٔ مثبت یا انتقال پس از بستن دائمیِ بدون اثر را می‌پذیرد. کنترل مرزی نشان می‌دهد بازگردانی خود مقصد، اعتبار عملیِ گواه قبلی را از بین می‌برد. [گزارش فارسی و حدود قرارداد](docs/research/TERMINAL_EVIDENCE_V1_FA.md)
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -66,4 +70,5 @@ python scripts/run_destination_revocation.py --check results/destination_revocat
 python scripts/run_provider_failover.py --check results/provider_failover_v1.json
 python scripts/run_retention.py --check results/retention_v1.json
 python scripts/run_open_tail.py --check results/open_tail_v1.json
+python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
 ```

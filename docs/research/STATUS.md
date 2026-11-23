@@ -24,6 +24,8 @@
 
 - [Open-tail recovery](OPEN_TAIL_V1.md) evaluates independently retained write-ahead claims in 63 runs. It prevents new same-provider effects for claimed operations after recovery-image loss, while preserving unresolved outcomes and a failing guard-rollback control.
 
+- [Terminal provider evidence](TERMINAL_EVIDENCE_V1.md) evaluates authenticated observation versus purpose-bound terminal evidence across 60 runs. It adds a declared durable provider contract to resolve selected unknowns and preserves a failing provider-rollback control.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

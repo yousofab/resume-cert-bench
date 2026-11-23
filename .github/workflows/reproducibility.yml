@@ -57,3 +57,5 @@ jobs:
         run: python scripts/run_retention.py --check results/retention_v1.json
       - name: Reproduce open-tail claims and postcommit evidence gaps
         run: python scripts/run_open_tail.py --check results/open_tail_v1.json
+      - name: Reproduce purpose-bound terminal evidence and recovery
+        run: python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
