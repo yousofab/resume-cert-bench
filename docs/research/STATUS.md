@@ -26,6 +26,8 @@
 
 - [Terminal provider evidence](TERMINAL_EVIDENCE_V1.md) evaluates authenticated observation versus purpose-bound terminal evidence across 60 runs. It adds a declared durable provider contract to resolve selected unknowns and preserves a failing provider-rollback control.
 
+- [Retained provider authority](PROVIDER_AUTHORITY_V1.md) compares independent atomic effect and retirement retention with postcommit evidence copying in 51 runs, including a shared-restore boundary control.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

@@ -1,0 +1,4002 @@
+{
+  "runs": [
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "ordinary_ack",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "ordinary_ack",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "ordinary_ack",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "ordinary_failover",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "ordinary_failover",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "ordinary_failover",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "retirement_then_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "retirement_then_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "retirement_then_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "retirement_retrieved_after_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "retirement_retrieved_after_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "retirement_retrieved_after_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "already_confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "ack_then_projection_restore",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "copied_receipt": true,
+          "receipt_id": 1,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "already_confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "ack_then_projection_restore",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "receipt_id": 1,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "already_confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "ack_then_projection_restore",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "lost_reply_before_receipt_copy",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "lost_reply_before_receipt_copy",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "lost_reply_before_receipt_copy",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        3,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "repeated_restore_after_lost_reply",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        3,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "repeated_restore_after_lost_reply",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "repeated_restore_after_lost_reply",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "lost_copy_then_try_to_terminalize",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "lost_copy_then_try_to_terminalize",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "no_secondary_route",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "unknown",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "lost_copy_then_try_to_terminalize",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "lookup_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "historical_receipt_retrieved_after_restore",
+      "settled_provider": null
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "historical_receipt_retrieved_after_restore",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "historical_receipt_retrieved_after_restore",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "saved_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "source_and_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "saved_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "source_and_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_source"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "saved_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "source_and_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        2
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "reserve_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot_b"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b_lost"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_b"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "secondary_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        2
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "reserve_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot_b"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b_lost"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_b"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "secondary_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "reserve_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot_b"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b_lost"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_b"
+        },
+        {
+          "active_provider": "secondary",
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "secondary_projection_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "84b1077f6e152c011e159abdd2362a71fd423e3532a9dc925249a1da363d6baf",
+            2
+          ],
+          "next_status": "confirmed",
+          "receipt_id": 2,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "next"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "84b1077f6e152c011e159abdd2362a71fd423e3532a9dc925249a1da363d6baf",
+          2
+        ],
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "unrelated_authorized_work_after_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "84b1077f6e152c011e159abdd2362a71fd423e3532a9dc925249a1da363d6baf",
+            1
+          ],
+          "next_status": "confirmed",
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "next"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "84b1077f6e152c011e159abdd2362a71fd423e3532a9dc925249a1da363d6baf",
+          1
+        ],
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "unrelated_authorized_work_after_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "dispatch_denied",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "84b1077f6e152c011e159abdd2362a71fd423e3532a9dc925249a1da363d6baf",
+            1
+          ],
+          "next_status": "confirmed",
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "next"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "84b1077f6e152c011e159abdd2362a71fd423e3532a9dc925249a1da363d6baf",
+          1
+        ],
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "unrelated_authorized_work_after_restore",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "projection_offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        }
+      ],
+      "history": [],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "projection_unavailable",
+      "settled_provider": null
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "projection_offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        }
+      ],
+      "history": [],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "projection_unavailable",
+      "settled_provider": null
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "projection_offline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "projection_unavailable",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "uncached",
+          "step": "inspect_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "lookup_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "stale_projection_can_be_rebuilt",
+      "settled_provider": null
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "uncached",
+          "step": "inspect_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "stale_projection_can_be_rebuilt",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unresolved",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "recorded",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unresolved",
+          "step": "inspect_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "recorded",
+          "step": "refresh_a"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "stale_projection_can_be_rebuilt",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "online"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "authority_unavailable_then_recovers",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "online"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "authority_unavailable_then_recovers",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "online"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "authority_unavailable_then_recovers",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "authority_remains_unavailable",
+      "settled_provider": null
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "authority_remains_unavailable",
+      "settled_provider": null
+    },
+    {
+      "boundary_control": false,
+      "effects_by_provider": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_lost"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "authority_unavailable",
+          "step": "read_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "authority_remains_unavailable",
+      "settled_provider": null
+    },
+    {
+      "boundary_control": true,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_all"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "provider_image",
+      "scenario": "shared_restore_domain_control",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": true,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_all"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "copy_after_commit",
+      "scenario": "shared_restore_domain_control",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary_control": true,
+      "effects_by_provider": [
+        1,
+        1
+      ],
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "snapshot"
+        },
+        {
+          "active_provider": "primary",
+          "evidence_kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "close_a"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept_a"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "evidence_kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "read_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_all"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+            1
+          ],
+          "receipt_id": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ],
+        [
+          "primary",
+          "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+          1
+        ]
+      ],
+      "operation_key": "57e1bf4b564e6488ae4d7d0dfc29a7f0e3691e7868ac0c7d9e0e5b575d4cbf78",
+      "policy": "retained_authority",
+      "scenario": "shared_restore_domain_control",
+      "settled_provider": "secondary"
+    }
+  ],
+  "schema": "resumecert-provider-authority-v1",
+  "summary": {
+    "copy_after_commit": {
+      "boundary_duplicates": 1,
+      "confirmed_single": 10,
+      "duplicate_runs": 4,
+      "unresolved": 2
+    },
+    "provider_image": {
+      "boundary_duplicates": 1,
+      "confirmed_single": 4,
+      "duplicate_runs": 8,
+      "unresolved": 4
+    },
+    "retained_authority": {
+      "boundary_duplicates": 1,
+      "confirmed_single": 15,
+      "duplicate_runs": 0,
+      "unresolved": 1
+    }
+  }
+}

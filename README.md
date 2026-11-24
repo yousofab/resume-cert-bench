@@ -64,6 +64,10 @@ A receipt cache still has a gap between target commit and receipt persistence. T
 
 An authenticated empty lookup can precede a late effect. The [60-run study](docs/research/TERMINAL_EVIDENCE_V1.md) verifies evidence scope and purpose before confirming an effect or enabling the approved secondary. The contract requires independently retained terminal provider state; a provider-rollback control demonstrates the limit.
 
+## Provider authority after projection restore
+
+The [51-run study](docs/research/PROVIDER_AUTHORITY_V1.md) retains effect receipts and permanent retirement outside the working projection. Its shared-restore control shows the remaining dependency on the retained authority.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -84,6 +88,7 @@ python scripts/run_provider_failover.py --check results/provider_failover_v1.jso
 python scripts/run_retention.py --check results/retention_v1.json
 python scripts/run_open_tail.py --check results/open_tail_v1.json
 python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
+python scripts/run_provider_authority.py --check results/provider_authority_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.
