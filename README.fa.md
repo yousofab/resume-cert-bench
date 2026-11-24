@@ -40,6 +40,10 @@
 
 در مطالعهٔ ۶۰اجرایی، کنترلِ نوع و اتصال شاهد به عملیات، نتیجهٔ مثبت یا انتقال پس از بستن دائمیِ بدون اثر را می‌پذیرد. کنترل مرزی نشان می‌دهد بازگردانی خود مقصد، اعتبار عملیِ گواه قبلی را از بین می‌برد. [گزارش فارسی و حدود قرارداد](docs/research/TERMINAL_EVIDENCE_V1_FA.md)
 
+## حفظ مرجع مقصد هنگام بازیابی
+
+در [مطالعهٔ ۵۱ اجرایی](docs/research/PROVIDER_AUTHORITY_V1_FA.md)، ثبت اثر و بسته‌شدن عملیات بیرون از تصویر کاری نگه داشته شدند. بازگردانی خود مرجع، کنترل مرزی آزمایش بود.
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -71,4 +75,5 @@ python scripts/run_provider_failover.py --check results/provider_failover_v1.jso
 python scripts/run_retention.py --check results/retention_v1.json
 python scripts/run_open_tail.py --check results/open_tail_v1.json
 python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
+python scripts/run_provider_authority.py --check results/provider_authority_v1.json
 ```

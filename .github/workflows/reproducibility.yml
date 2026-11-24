@@ -59,3 +59,5 @@ jobs:
         run: python scripts/run_open_tail.py --check results/open_tail_v1.json
       - name: Reproduce purpose-bound terminal evidence and recovery
         run: python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
+      - name: Reproduce retained provider authority after projection restore
+        run: python scripts/run_provider_authority.py --check results/provider_authority_v1.json
