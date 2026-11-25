@@ -56,16 +56,21 @@ def _sign(body, key):
 
 def issue(provider, dispatch, key, *, terminal=False):
     """Attest an observation, or atomically retire this operation and attest its outcome."""
+    _validate_issuer(provider, dispatch, key)
+    effect = (routing.retire(provider, dispatch.notice, dispatch.epoch).effect if terminal
+              else delivery.reconcile(provider, dispatch.notice))
+    return _attest(dispatch, key, effect, terminal)
+
+
+def _validate_issuer(provider, dispatch, key):
     if type(key) is not bytes or len(key) < 32:
         raise ValueError("a provider-pinned MAC key of at least 32 bytes is required")
     if routing.identity(provider) != dispatch.provider_id:
         raise DeliveryConflict("dispatch is bound to another provider")
     retention._integer(dispatch.epoch, 1)
-    if terminal:
-        fence = routing.retire(provider, dispatch.notice, dispatch.epoch)
-        effect = fence.effect
-    else:
-        effect = delivery.reconcile(provider, dispatch.notice)
+
+
+def _attest(dispatch, key, effect, terminal):
     if effect is not None and effect.accepted_epoch != dispatch.epoch:
         raise EvidenceError("observed receipt belongs to another dispatch generation")
     kind = "recorded" if effect is not None else ("retired_empty" if terminal else "lookup_empty")
@@ -117,14 +122,23 @@ def verify(evidence, trusted_keys):
 
 def reserve(source, guard, request_id, provider, stream_id):
     """Reserve one source-authorized attempt before dispatch to the enrolled active provider."""
-    notice, status, _, _, active, _ = routing._route(source, request_id)
     provider_id = routing.identity(provider)
+    message = _reservation_message(source, request_id, provider_id, stream_id)
+    epoch = delivery.register(provider, message.notice)
+    if delivery.authority(provider, message.notice) != (epoch, True):
+        raise delivery.DispatchDenied("provider operation is closed")
+    return _claim_dispatch(guard, provider_id, message, epoch)
+
+
+def _reservation_message(source, request_id, provider_id, stream_id):
+    notice, status, _, _, active, _ = routing._route(source, request_id)
     if status != "pending" or provider_id != active:
         raise DeliveryConflict("provider has no active authorized source route")
-    message = retention.StreamNotice(stream_id, request_id, notice)
-    epoch = delivery.register(provider, notice)
-    if delivery.authority(provider, notice) != (epoch, True):
-        raise delivery.DispatchDenied("provider operation is closed")
+    return retention.StreamNotice(stream_id, request_id, notice)
+
+
+def _claim_dispatch(guard, provider_id, message, epoch):
+    notice = message.notice
     if open_tail._claim_new_effect(guard, provider_id, notice.operation_key, notice.payload,
                                    epoch, message.stream_id, message.sequence) != 1:
         raise delivery.DispatchDenied("a prior attempt remains reserved; reconcile its evidence")

@@ -62,17 +62,21 @@ def retire(connection, notice, expected_epoch):
     if type(expected_epoch) is not int or expected_epoch < 1:
         raise ValueError("invalid expected epoch")
     with write_transaction(connection):
-        previous = retirement(connection, notice)
-        if previous is not None:
-            if previous.retired_epoch != expected_epoch:
-                raise destination.DispatchDenied("operation retired under another epoch")
-            return previous
-        fence = destination._revoke_in_transaction(connection, notice, expected_epoch)
-        if destination.authority(connection, notice) != (fence.closed_epoch, False):
-            raise destination.DispatchDenied("ordinary fence was superseded by a new grant")
-        connection.execute("INSERT INTO permanent_retirements VALUES (?, ?)",
-                           (notice.operation_key, expected_epoch))
-        return fence
+        return _retire_in_transaction(connection, notice, expected_epoch)
+
+
+def _retire_in_transaction(connection, notice, expected_epoch):
+    previous = retirement(connection, notice)
+    if previous is not None:
+        if previous.retired_epoch != expected_epoch:
+            raise destination.DispatchDenied("operation retired under another epoch")
+        return previous
+    fence = destination._revoke_in_transaction(connection, notice, expected_epoch)
+    if destination.authority(connection, notice) != (fence.closed_epoch, False):
+        raise destination.DispatchDenied("ordinary fence was superseded by a new grant")
+    connection.execute("INSERT INTO permanent_retirements VALUES (?, ?)",
+                       (notice.operation_key, expected_epoch))
+    return fence
 
 
 def create_routes(connection):

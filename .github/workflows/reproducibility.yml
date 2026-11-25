@@ -61,3 +61,5 @@ jobs:
         run: python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
       - name: Reproduce retained provider authority after projection restore
         run: python scripts/run_provider_authority.py --check results/provider_authority_v1.json
+      - name: Reproduce authority rollback and witness boundaries
+        run: python scripts/run_authority_rollback.py --check results/authority_rollback_v1.json

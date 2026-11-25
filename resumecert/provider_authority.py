@@ -74,25 +74,29 @@ class ProviderAuthority:
 
     def refresh_projection(self, projection, dispatch):
         """Rebuild disposable status from the provider, without creating an effect."""
-        if dispatch.provider_id != self.provider_id:
-            raise DeliveryConflict("projection request is bound to another provider")
         with self._connect() as authority, write_transaction(authority):
-            notice = dispatch.notice
-            effect = delivery.reconcile(authority, notice)
-            fence = routing.retirement(authority, notice)
-            if effect is not None and effect.accepted_epoch != dispatch.epoch:
-                raise DeliveryConflict("receipt belongs to another dispatch generation")
-            if fence is not None and fence.retired_epoch != dispatch.epoch:
-                raise DeliveryConflict("retirement belongs to another dispatch generation")
-            status = "recorded" if effect is not None else "retired_empty" if fence is not None else "unresolved"
-            # Serialize materialization in the same order as authority reads. The
-            # projection is never an input to dispatch or evidence issuance.
-            with write_transaction(projection):
-                projection.execute("""
-                    INSERT INTO provider_projection VALUES (?, ?, ?, ?, ?, ?)
-                    ON CONFLICT(provider_id, operation_key) DO UPDATE SET
-                        payload_digest=excluded.payload_digest, epoch=excluded.epoch,
-                        status=excluded.status, effect_id=excluded.effect_id
-                """, (self.provider_id, notice.operation_key, notice.payload_digest, dispatch.epoch,
-                      status, effect.receipt.effect_id if effect is not None else None))
-        return status
+            return _refresh_projection(authority, projection, dispatch)
+
+
+def _refresh_projection(authority, projection, dispatch):
+    if dispatch.provider_id != routing.identity(authority):
+        raise DeliveryConflict("projection request is bound to another provider")
+    notice = dispatch.notice
+    effect = delivery.reconcile(authority, notice)
+    fence = routing.retirement(authority, notice)
+    if effect is not None and effect.accepted_epoch != dispatch.epoch:
+        raise DeliveryConflict("receipt belongs to another dispatch generation")
+    if fence is not None and fence.retired_epoch != dispatch.epoch:
+        raise DeliveryConflict("retirement belongs to another dispatch generation")
+    status = "recorded" if effect is not None else "retired_empty" if fence is not None else "unresolved"
+    # Keep materialization ordered with authority reads. The projection is
+    # never an input to dispatch or evidence issuance.
+    with write_transaction(projection):
+        projection.execute("""
+            INSERT INTO provider_projection VALUES (?, ?, ?, ?, ?, ?)
+            ON CONFLICT(provider_id, operation_key) DO UPDATE SET
+                payload_digest=excluded.payload_digest, epoch=excluded.epoch,
+                status=excluded.status, effect_id=excluded.effect_id
+        """, (dispatch.provider_id, notice.operation_key, notice.payload_digest, dispatch.epoch,
+              status, effect.receipt.effect_id if effect is not None else None))
+    return status

@@ -68,6 +68,10 @@ An authenticated empty lookup can precede a late effect. The [60-run study](docs
 
 The [51-run study](docs/research/PROVIDER_AUTHORITY_V1.md) retains effect receipts and permanent retirement outside the working projection. Its shared-restore control shows the remaining dependency on the retained authority.
 
+## Authority verification after rollback
+
+The [39-run study](docs/research/AUTHORITY_ROLLBACK_V1.md) puts a revision and state commitment outside the provider restore domain. Equal-revision divergent images expose the limit of checking the revision alone. The crash-gap and shared-restore controls describe when the witness cannot recover service.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -89,6 +93,7 @@ python scripts/run_retention.py --check results/retention_v1.json
 python scripts/run_open_tail.py --check results/open_tail_v1.json
 python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
 python scripts/run_provider_authority.py --check results/provider_authority_v1.json
+python scripts/run_authority_rollback.py --check results/authority_rollback_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.

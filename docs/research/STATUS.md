@@ -28,6 +28,8 @@
 
 - [Retained provider authority](PROVIDER_AUTHORITY_V1.md) compares independent atomic effect and retirement retention with postcommit evidence copying in 51 runs, including a shared-restore boundary control.
 
+- [Authority rollback verification](AUTHORITY_ROLLBACK_V1.md) compares identity, revision, and content checks in 39 runs. It covers equal-revision divergence, the witness-first crash window, and the shared-restore boundary.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

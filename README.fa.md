@@ -44,6 +44,10 @@
 
 در [مطالعهٔ ۵۱ اجرایی](docs/research/PROVIDER_AUTHORITY_V1_FA.md)، ثبت اثر و بسته‌شدن عملیات بیرون از تصویر کاری نگه داشته شدند. بازگردانی خود مرجع، کنترل مرزی آزمایش بود.
 
+## تشخیص نسخهٔ قدیمی مرجع
+
+در [مطالعهٔ ۳۹ اجرایی](docs/research/AUTHORITY_ROLLBACK_V1_FA.md)، شاهد مستقل به کمک شمارهٔ نسخه و چکیدهٔ وضعیت، تصویرهای قدیمی یا هم‌شمارهٔ دارای محتوای متفاوت را رد می‌کند. خرابی بین دو ثبت و بازگردانی هم‌زمان شاهد نیز آزموده شده‌اند.
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -76,4 +80,5 @@ python scripts/run_retention.py --check results/retention_v1.json
 python scripts/run_open_tail.py --check results/open_tail_v1.json
 python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
 python scripts/run_provider_authority.py --check results/provider_authority_v1.json
+python scripts/run_authority_rollback.py --check results/authority_rollback_v1.json
 ```

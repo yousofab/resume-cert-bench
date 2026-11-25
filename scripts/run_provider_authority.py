@@ -38,7 +38,7 @@ SCENARIOS = {
     "shared_restore_domain_control": "snapshot close_a accept_a apply_b read_b accept_b restore_all late_a",
 }
 
-def prepare(directory, policy):
+def prepare(directory, policy, *, authority_factory=None):
     with closing(connect(directory / "source.sqlite3")) as source, closing(
             connect(directory / "guard.sqlite3")) as guard:
         create_repair_schema(source)
@@ -65,7 +65,8 @@ def prepare(directory, policy):
                 if policy != "retained_authority":
                     routing.create_provider(db, name)
             guard.execute("INSERT INTO retention_anchors VALUES (?, ?, 0)", (name, STREAM))
-            providers[name] = durable.ProviderAuthority(authority, name, store_id)
+            view = durable.ProviderAuthority(authority, name, store_id)
+            providers[name] = authority_factory(view) if authority_factory else view
         if policy == "retained_authority":
             dispatch = providers["primary"].reserve(source, guard, 1, STREAM)
         else:
