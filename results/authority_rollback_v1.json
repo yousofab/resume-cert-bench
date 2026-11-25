@@ -1,0 +1,2643 @@
+{
+  "runs": [
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "normal_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "normal_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "normal_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "delivery_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "normal_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "delivery_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "normal_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "delivery_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "normal_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "older_image_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "older_image_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "older_image_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "revision": 1,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "older_image_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "older_image_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "older_image_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "revision": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ],
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "older_image_cannot_issue_terminal_absence",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "retire"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "apply_b"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "older_image_cannot_issue_terminal_absence",
+      "settled_provider": null
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "retire"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unknown",
+          "step": "accept"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "no_secondary_route",
+          "step": "apply_b"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "older_image_cannot_issue_terminal_absence",
+      "settled_provider": null
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "sibling"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_sibling"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "226d68f2f110ccbb5ce478a532ffcd172f25f68f23d8b15e75d62ea5822efab5",
+          "candidate_revision": 2,
+          "matching_content": false,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "same_revision_sibling_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "sibling"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_sibling"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "226d68f2f110ccbb5ce478a532ffcd172f25f68f23d8b15e75d62ea5822efab5",
+          "candidate_revision": 2,
+          "matching_content": false,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "same_revision_sibling_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "sibling"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_sibling"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "226d68f2f110ccbb5ce478a532ffcd172f25f68f23d8b15e75d62ea5822efab5",
+          "candidate_revision": 2,
+          "matching_content": false,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "same_revision_sibling_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "sibling"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore_sibling"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "226d68f2f110ccbb5ce478a532ffcd172f25f68f23d8b15e75d62ea5822efab5",
+          "candidate_revision": 2,
+          "matching_content": false,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "same_revision_sibling_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "sibling"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore_sibling"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "226d68f2f110ccbb5ce478a532ffcd172f25f68f23d8b15e75d62ea5822efab5",
+          "candidate_revision": 2,
+          "matching_content": false,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "same_revision_sibling_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "sibling"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "step": "restore_sibling"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "226d68f2f110ccbb5ce478a532ffcd172f25f68f23d8b15e75d62ea5822efab5",
+          "candidate_revision": 2,
+          "matching_content": false,
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "quarantined",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "same_revision_sibling_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "delivery_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "current_backup_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "delivery_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "current_backup_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "c849f4d3aa1a041efb39cdc6ac1426539b8f4558685e764c8c6e3cb1fc6c817c",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "delivery_denied",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "current_backup_after_transfer",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "current_backup_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "current_backup_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "current_backup_after_commit",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "revision": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 3
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "quarantine_then_restore_current",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "quarantine_then_restore_current",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "save_current"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_old"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "late_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "restore_current"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "candidate_revision": 2,
+          "matching_content": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "quarantine_then_restore_current",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "witness_offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unavailable",
+          "step": "verify"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unavailable",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "witness_online"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "witness_outage_then_recovers",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "witness_offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unavailable",
+          "step": "verify"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unavailable",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "witness_online"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "witness_outage_then_recovers",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "witness_offline"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unavailable",
+          "step": "verify"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "unavailable",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "witness_online"
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "apply_a"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "recorded",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "attest"
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": "primary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "accept"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "witness_outage_then_recovers",
+      "settled_provider": "primary"
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "aborted_after_witness_commit",
+          "step": "abort_apply"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "revision": 1,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "witness_ahead_after_failed_commit",
+      "settled_provider": null
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "aborted_after_witness_commit",
+          "step": "abort_apply"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "late_a"
+        }
+      ],
+      "history": [],
+      "policy": "revision_only",
+      "scenario": "witness_ahead_after_failed_commit",
+      "settled_provider": null
+    },
+    {
+      "boundary": false,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "aborted_after_witness_commit",
+          "step": "abort_apply"
+        },
+        {
+          "active_provider": "primary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": false,
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "verify",
+          "witness_digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+          "witness_revision": 2
+        },
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "quarantined",
+          "step": "late_a"
+        }
+      ],
+      "history": [],
+      "policy": "revision_and_commitment",
+      "scenario": "witness_ahead_after_failed_commit",
+      "settled_provider": null
+    },
+    {
+      "boundary": true,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_both"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": true,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "witness_revision": 1
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "identity_only",
+      "scenario": "witness_and_authority_restored_together",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": true,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_both"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": true,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "witness_revision": 1
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_only",
+      "scenario": "witness_and_authority_restored_together",
+      "settled_provider": "secondary"
+    },
+    {
+      "boundary": true,
+      "events": [
+        {
+          "active_provider": "primary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "baseline"
+        },
+        {
+          "active_provider": "primary",
+          "kind": "retired_empty",
+          "settled_provider": null,
+          "source_status": "pending",
+          "step": "retire"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": null,
+          "source_status": "pending",
+          "status": "secondary",
+          "step": "accept"
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "secondary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "confirmed",
+          "step": "apply_b"
+        },
+        {
+          "active_provider": "secondary",
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "restore_both"
+        },
+        {
+          "active_provider": "secondary",
+          "candidate_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "candidate_revision": 1,
+          "matching_content": true,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "status": "admitted",
+          "step": "verify",
+          "witness_digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+          "witness_revision": 1
+        },
+        {
+          "active_provider": "secondary",
+          "created": [
+            "primary",
+            1
+          ],
+          "settled_provider": "secondary",
+          "source_status": "sent",
+          "step": "late_a"
+        }
+      ],
+      "history": [
+        [
+          "secondary",
+          1
+        ],
+        [
+          "primary",
+          1
+        ]
+      ],
+      "policy": "revision_and_commitment",
+      "scenario": "witness_and_authority_restored_together",
+      "settled_provider": "secondary"
+    }
+  ],
+  "schema": "resumecert-authority-rollback-v1",
+  "summary": {
+    "identity_only": {
+      "boundary_duplicates": 1,
+      "duplicate": 6,
+      "single_confirmed": 5,
+      "unresolved": 1
+    },
+    "revision_and_commitment": {
+      "boundary_duplicates": 1,
+      "duplicate": 0,
+      "single_confirmed": 10,
+      "unresolved": 2
+    },
+    "revision_only": {
+      "boundary_duplicates": 1,
+      "duplicate": 2,
+      "single_confirmed": 8,
+      "unresolved": 2
+    }
+  }
+}
