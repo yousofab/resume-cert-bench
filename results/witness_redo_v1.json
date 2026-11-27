@@ -1,0 +1,1583 @@
+{
+  "external_effect_control": [
+    {
+      "blind_resend": 1,
+      "local_before_repair": {
+        "authority_current": false,
+        "effect_rows": [
+          0,
+          0
+        ],
+        "primary_retired": false,
+        "revision": 1,
+        "settled_provider": null,
+        "status": "injected_provider_rollback",
+        "step": "abort_apply",
+        "witness_revision": 2
+      },
+      "local_witness_head": [
+        2,
+        "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d"
+      ],
+      "withhold_send": 0
+    },
+    {
+      "blind_resend": 2,
+      "local_before_repair": {
+        "authority_current": false,
+        "effect_rows": [
+          0,
+          0
+        ],
+        "primary_retired": false,
+        "revision": 1,
+        "settled_provider": null,
+        "status": "injected_provider_rollback",
+        "step": "abort_apply",
+        "witness_revision": 2
+      },
+      "local_witness_head": [
+        2,
+        "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d"
+      ],
+      "withhold_send": 1
+    }
+  ],
+  "runs": [
+    {
+      "confirmed": true,
+      "policy": "digest_only",
+      "scenario": "normal_effect",
+      "trace": [
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": null,
+          "step": "apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "current",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_result": "confirmed",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "one_transition_redo",
+      "scenario": "normal_effect",
+      "trace": [
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": null,
+          "step": "apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "current",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_result": "confirmed",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "gap_after_effect_intent",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "one_transition_redo",
+      "scenario": "gap_after_effect_intent",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "repaired",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_result": "confirmed",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "gap_after_retirement_intent",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_retire",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "retire",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "late",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "not_authorized",
+          "step": "transfer",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "one_transition_redo",
+      "scenario": "gap_after_retirement_intent",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_retire",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": true,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "repaired",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_result": "secondary",
+          "step": "retire",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": true,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "delivery_denied",
+          "step": "late",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": true,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_result": "confirmed",
+          "step": "transfer",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "gap_after_registration_intent",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_register",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "register",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "one_transition_redo",
+      "scenario": "gap_after_registration_intent",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_register",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "repaired",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 2,
+          "settled_provider": null,
+          "step": "register",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 3,
+          "settled_provider": null,
+          "step": "apply",
+          "witness_revision": 3
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 3,
+          "settled_provider": "primary",
+          "source_result": "confirmed",
+          "step": "attest",
+          "witness_revision": 3
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "restore_after_acknowledged_effect",
+      "trace": [
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "save",
+          "witness_revision": 1
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": null,
+          "step": "apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_result": "confirmed",
+          "step": "attest",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": "primary",
+          "step": "restore",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": "primary",
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": "primary",
+          "status": "quarantined",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "one_transition_redo",
+      "scenario": "restore_after_acknowledged_effect",
+      "trace": [
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "save",
+          "witness_revision": 1
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": null,
+          "step": "apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_result": "confirmed",
+          "step": "attest",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": "primary",
+          "step": "restore",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": "primary",
+          "status": "repaired",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_result": "already_confirmed",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "digest_only",
+      "scenario": "restore_after_secondary_effect",
+      "trace": [
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "save",
+          "witness_revision": 1
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_result": "secondary",
+          "step": "retire",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": true,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_result": "confirmed",
+          "step": "transfer",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "step": "restore",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "status": "quarantined",
+          "step": "late",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "source_result": "already_confirmed",
+          "step": "attest_secondary",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "one_transition_redo",
+      "scenario": "restore_after_secondary_effect",
+      "trace": [
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "save",
+          "witness_revision": 1
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": true,
+          "revision": 2,
+          "settled_provider": null,
+          "source_result": "secondary",
+          "step": "retire",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": true,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_result": "confirmed",
+          "step": "transfer",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": "secondary",
+          "step": "restore",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": true,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "status": "repaired",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": true,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "status": "delivery_denied",
+          "step": "late",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            1
+          ],
+          "primary_retired": true,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "secondary",
+          "source_result": "already_confirmed",
+          "step": "attest_secondary",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "repeat_recovery_and_delivery",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "one_transition_redo",
+      "scenario": "repeat_recovery_and_delivery",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "repaired",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "current",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": null,
+          "step": "apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_result": "confirmed",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "second_crash_during_recovery",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "abort_recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": true,
+      "policy": "one_transition_redo",
+      "scenario": "second_crash_during_recovery",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "returned_revision": 2,
+          "revision": 2,
+          "settled_provider": null,
+          "status": "repaired",
+          "step": "recover",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 2,
+          "settled_provider": "primary",
+          "source_result": "confirmed",
+          "step": "attest",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "two_revisions_behind",
+      "trace": [
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "save",
+          "witness_revision": 1
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 2,
+          "settled_provider": null,
+          "step": "register",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 3,
+          "settled_provider": null,
+          "step": "apply",
+          "witness_revision": 3
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "restore",
+          "witness_revision": 3
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 3
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "one_transition_redo",
+      "scenario": "two_revisions_behind",
+      "trace": [
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "save",
+          "witness_revision": 1
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 2,
+          "settled_provider": null,
+          "step": "register",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": true,
+          "effect_rows": [
+            1,
+            0
+          ],
+          "primary_retired": false,
+          "receipt": 1,
+          "revision": 3,
+          "settled_provider": null,
+          "step": "apply",
+          "witness_revision": 3
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "restore",
+          "witness_revision": 3
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 3
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "divergent_predecessor_content",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "diverge",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "one_transition_redo",
+      "scenario": "divergent_predecessor_content",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "diverge",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "changed_redo_command",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "change_command",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "one_transition_redo",
+      "scenario": "changed_redo_command",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "change_command",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "quarantined",
+          "step": "recover",
+          "witness_revision": 2
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "digest_only",
+      "scenario": "witness_unavailable",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "isolate_witness",
+          "witness_revision": null
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "witness_unavailable",
+          "step": "recover",
+          "witness_revision": null
+        }
+      ]
+    },
+    {
+      "confirmed": false,
+      "policy": "one_transition_redo",
+      "scenario": "witness_unavailable",
+      "trace": [
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "injected_provider_rollback",
+          "step": "abort_apply",
+          "witness_revision": 2
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "step": "isolate_witness",
+          "witness_revision": null
+        },
+        {
+          "authority_current": false,
+          "effect_rows": [
+            0,
+            0
+          ],
+          "primary_retired": false,
+          "revision": 1,
+          "settled_provider": null,
+          "status": "witness_unavailable",
+          "step": "recover",
+          "witness_revision": null
+        }
+      ]
+    }
+  ],
+  "schema": "resumecert-witness-redo-v1",
+  "summary": {
+    "digest_only": {
+      "confirmed": 2,
+      "current_authority": 1,
+      "restored_transitions": 0,
+      "unresolved": 10
+    },
+    "one_transition_redo": {
+      "confirmed": 8,
+      "current_authority": 8,
+      "restored_transitions": 7,
+      "unresolved": 4
+    }
+  }
+}

@@ -30,6 +30,8 @@
 
 - [Authority rollback verification](AUTHORITY_ROLLBACK_V1.md) compares identity, revision, and content checks in 39 runs. It covers equal-revision divergence, the witness-first crash window, and the shared-restore boundary.
 
+- [Witness redo](WITNESS_REDO_V1.md) compares digest-only admission with one-transition reconstruction in 24 runs and checks the separate external-effect boundary.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |

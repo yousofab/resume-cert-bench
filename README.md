@@ -72,6 +72,10 @@ The [51-run study](docs/research/PROVIDER_AUTHORITY_V1.md) retains effect receip
 
 The [39-run study](docs/research/AUTHORITY_ROLLBACK_V1.md) puts a revision and state commitment outside the provider restore domain. Equal-revision divergent images expose the limit of checking the revision alone. The crash-gap and shared-restore controls describe when the witness cannot recover service.
 
+## Recovering a witnessed transition
+
+The [24-run study](docs/research/WITNESS_REDO_V1.md) reconstructs one already witnessed SQLite transition from its exact predecessor. The external-effect control shows why blind resend requires a separate contract.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -94,6 +98,7 @@ python scripts/run_open_tail.py --check results/open_tail_v1.json
 python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.json
 python scripts/run_provider_authority.py --check results/provider_authority_v1.json
 python scripts/run_authority_rollback.py --check results/authority_rollback_v1.json
+python scripts/run_witness_redo.py --check results/witness_redo_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.

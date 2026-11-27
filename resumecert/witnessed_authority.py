@@ -96,18 +96,29 @@ class WitnessedAuthority:
     def _matches(self, actual, expected):
         return actual == expected
 
+    def _revision(self, db):
+        try:
+            row = db.execute("SELECT revision FROM authority_revision WHERE singleton=1").fetchone()
+        except sqlite3.Error as error:
+            raise StateMismatch("authority lacks its witnessed revision") from error
+        if row is None:
+            raise StateMismatch("authority lacks its witnessed revision")
+        return row[0]
+
+    def _advance(self, witness, head, candidate, transition):
+        updated = witness.execute("""
+            UPDATE authority_heads SET revision=revision+1, digest=?
+            WHERE provider_id=? AND store_id=? AND revision=? AND digest=?
+        """, (candidate, *self._identity, *head))
+        if updated.rowcount != 1:
+            raise StateMismatch("another authority update advanced the independent witness")
+
     @contextmanager
-    def _session(self):
+    def _session(self, transition=None):
         # Provider write lock serializes calls on one image. CAS also prevents a
         # second same-head image from committing a conflicting transition.
         with self.authority._connect() as db, write_transaction(db), self._witness() as witness:
-            try:
-                row = db.execute("SELECT revision FROM authority_revision WHERE singleton=1").fetchone()
-            except sqlite3.Error as error:
-                raise StateMismatch("authority lacks its witnessed revision") from error
-            if row is None:
-                raise StateMismatch("authority lacks its witnessed revision")
-            revision = row[0]
+            revision = self._revision(db)
             previous = _commitment(db)
             head = self._head(witness)
             if not self._matches((revision, previous), head):
@@ -116,12 +127,7 @@ class WitnessedAuthority:
             candidate = _commitment(db)
             if previous != candidate:
                 with write_transaction(witness):
-                    updated = witness.execute("""
-                        UPDATE authority_heads SET revision=revision+1, digest=?
-                        WHERE provider_id=? AND store_id=? AND revision=? AND digest=?
-                    """, (candidate, *self._identity, *head))
-                    if updated.rowcount != 1:
-                        raise StateMismatch("another authority update advanced the independent witness")
+                    self._advance(witness, head, candidate, transition)
                 # If the process exits here, serving the predecessor image is
                 # unsafe: it could also be a restore after a successful commit.
                 db.execute("UPDATE authority_revision SET revision=? WHERE singleton=1", (head[0] + 1,))
@@ -134,7 +140,7 @@ class WitnessedAuthority:
     def reserve(self, source, guard, request_id, stream_id):
         provider_id = self.authority.provider_id
         message = terminal_evidence._reservation_message(source, request_id, provider_id, stream_id)
-        with self._session() as (db, _):
+        with self._session(("register", message.notice, None)) as (db, _):
             epoch = delivery._register_in_transaction(db, message.notice)
             if delivery.authority(db, message.notice) != (epoch, True):
                 raise delivery.DispatchDenied("provider operation is closed")
@@ -144,11 +150,12 @@ class WitnessedAuthority:
         if dispatch.provider_id != self.authority.provider_id:
             raise DeliveryConflict("dispatch belongs to another provider")
         retention._integer(dispatch.epoch, 1)
-        with self._session() as (db, _):
+        with self._session(("apply", dispatch.notice, dispatch.epoch)) as (db, _):
             return delivery._apply_in_transaction(db, dispatch.notice, dispatch.epoch)
 
     def issue(self, dispatch, key, *, terminal=False):
-        with self._session() as (db, _):
+        transition = ("retire", dispatch.notice, dispatch.epoch) if terminal else None
+        with self._session(transition) as (db, _):
             terminal_evidence._validate_issuer(db, dispatch, key)
             effect = (routing._retire_in_transaction(db, dispatch.notice, dispatch.epoch).effect if terminal
                       else delivery.reconcile(db, dispatch.notice))

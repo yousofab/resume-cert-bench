@@ -63,3 +63,5 @@ jobs:
         run: python scripts/run_provider_authority.py --check results/provider_authority_v1.json
       - name: Reproduce authority rollback and witness boundaries
         run: python scripts/run_authority_rollback.py --check results/authority_rollback_v1.json
+      - name: Reproduce bounded witness redo and external effect control
+        run: python scripts/run_witness_redo.py --check results/witness_redo_v1.json
