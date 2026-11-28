@@ -76,6 +76,10 @@ The [39-run study](docs/research/AUTHORITY_ROLLBACK_V1.md) puts a revision and s
 
 The [24-run study](docs/research/WITNESS_REDO_V1.md) reconstructs one already witnessed SQLite transition from its exact predecessor. The external-effect control shows why blind resend requires a separate contract.
 
+## Recovering several witnessed changes
+
+The [bounded redo study](docs/research/AUTHORITY_REDO_CHAIN_V1.md) compares the same backups across one-, two-, and four-change windows. The four-change window recovers four of six stale backups. Fault runs check rollback of a partial replay and recovery after process exit.
+
 ## Reproduce
 
 Python 3.12 is used for repository verification. No API key, GPU, or package installation is needed.
@@ -99,6 +103,7 @@ python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.jso
 python scripts/run_provider_authority.py --check results/provider_authority_v1.json
 python scripts/run_authority_rollback.py --check results/authority_rollback_v1.json
 python scripts/run_witness_redo.py --check results/witness_redo_v1.json
+python scripts/run_authority_redo_chain.py --check results/authority_redo_chain_v1.json
 ```
 
 GitHub Actions runs the reproduction and unit checks. The artifact check preserves the recorded witness and the proposal and institutional mark digests; the simulator checks cover the read budget and evidence verification.

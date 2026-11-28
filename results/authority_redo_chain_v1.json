@@ -1,0 +1,824 @@
+{
+  "fault_runs": [
+    {
+      "after_interruption": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "after_retry": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "fault": "missing_middle_record",
+      "interruption": "redo chain is incomplete",
+      "replayed_on_retry": 3,
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ]
+    },
+    {
+      "after_interruption": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "after_retry": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "fault": "broken_middle_digest",
+      "interruption": "redo chain is discontinuous",
+      "replayed_on_retry": 3,
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ]
+    },
+    {
+      "after_interruption": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "after_retry": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "fault": "wrong_middle_command",
+      "interruption": "reconstructed state differs from witnessed successor",
+      "replayed_on_retry": 3,
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ]
+    },
+    {
+      "after_interruption": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "after_retry": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "fault": "process_exit_after_two_replays",
+      "interruption": 71,
+      "replayed_on_retry": 3,
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ]
+    }
+  ],
+  "matched_runs": [
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "capacity": 1,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 0,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 187,
+        "revisions": [
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "current"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "d3f8345757d92ecd50c040fbff5a950d229cef15edd3d4b840093655e29c315d",
+        "effects": 2,
+        "retirements": 1,
+        "revision": 5
+      },
+      "capacity": 1,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 1,
+      "replayed": 1,
+      "retained": {
+        "command_bytes": 187,
+        "revisions": [
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "repaired"
+    },
+    {
+      "after": {
+        "digest": "a376d10075a7771b279aae4b608679ba20a215b2b8a623b156753893524b5dc1",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 4
+      },
+      "before": {
+        "digest": "a376d10075a7771b279aae4b608679ba20a215b2b8a623b156753893524b5dc1",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 4
+      },
+      "capacity": 1,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 2,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 187,
+        "revisions": [
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "before": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "capacity": 1,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 3,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 187,
+        "revisions": [
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+        "effects": 1,
+        "retirements": 0,
+        "revision": 2
+      },
+      "before": {
+        "digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+        "effects": 1,
+        "retirements": 0,
+        "revision": 2
+      },
+      "capacity": 1,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 4,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 187,
+        "revisions": [
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 1
+      },
+      "before": {
+        "digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 1
+      },
+      "capacity": 1,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 5,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 187,
+        "revisions": [
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "0e4c55c241e334a93f536ffa06a4fe52783f156d389bccc4a369db7932d3c1f8",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 0
+      },
+      "before": {
+        "digest": "0e4c55c241e334a93f536ffa06a4fe52783f156d389bccc4a369db7932d3c1f8",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 0
+      },
+      "capacity": 1,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 6,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 187,
+        "revisions": [
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "capacity": 2,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 0,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 373,
+        "revisions": [
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "current"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "d3f8345757d92ecd50c040fbff5a950d229cef15edd3d4b840093655e29c315d",
+        "effects": 2,
+        "retirements": 1,
+        "revision": 5
+      },
+      "capacity": 2,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 1,
+      "replayed": 1,
+      "retained": {
+        "command_bytes": 373,
+        "revisions": [
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "repaired"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "a376d10075a7771b279aae4b608679ba20a215b2b8a623b156753893524b5dc1",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 4
+      },
+      "capacity": 2,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 2,
+      "replayed": 2,
+      "retained": {
+        "command_bytes": 373,
+        "revisions": [
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "repaired"
+    },
+    {
+      "after": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "before": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "capacity": 2,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 3,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 373,
+        "revisions": [
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+        "effects": 1,
+        "retirements": 0,
+        "revision": 2
+      },
+      "before": {
+        "digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+        "effects": 1,
+        "retirements": 0,
+        "revision": 2
+      },
+      "capacity": 2,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 4,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 373,
+        "revisions": [
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 1
+      },
+      "before": {
+        "digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 1
+      },
+      "capacity": 2,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 5,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 373,
+        "revisions": [
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "0e4c55c241e334a93f536ffa06a4fe52783f156d389bccc4a369db7932d3c1f8",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 0
+      },
+      "before": {
+        "digest": "0e4c55c241e334a93f536ffa06a4fe52783f156d389bccc4a369db7932d3c1f8",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 0
+      },
+      "capacity": 2,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 6,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 373,
+        "revisions": [
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "capacity": 4,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 0,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 752,
+        "revisions": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "current"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "d3f8345757d92ecd50c040fbff5a950d229cef15edd3d4b840093655e29c315d",
+        "effects": 2,
+        "retirements": 1,
+        "revision": 5
+      },
+      "capacity": 4,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 1,
+      "replayed": 1,
+      "retained": {
+        "command_bytes": 752,
+        "revisions": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "repaired"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "a376d10075a7771b279aae4b608679ba20a215b2b8a623b156753893524b5dc1",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 4
+      },
+      "capacity": 4,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 2,
+      "replayed": 2,
+      "retained": {
+        "command_bytes": 752,
+        "revisions": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "repaired"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "3526e62239c8103428d6a4e5a0b2d2c3561968fbebbdf24fa48c9d9bedd829d0",
+        "effects": 1,
+        "retirements": 1,
+        "revision": 3
+      },
+      "capacity": 4,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 3,
+      "replayed": 3,
+      "retained": {
+        "command_bytes": 752,
+        "revisions": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "repaired"
+    },
+    {
+      "after": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "before": {
+        "digest": "f07029e66d8f410477e827db70c9e3de3dc270b2ab42eb77607fbf7e3fb33c3d",
+        "effects": 1,
+        "retirements": 0,
+        "revision": 2
+      },
+      "capacity": 4,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 4,
+      "replayed": 4,
+      "retained": {
+        "command_bytes": 752,
+        "revisions": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [
+        "confirmed",
+        "confirmed"
+      ],
+      "status": "repaired"
+    },
+    {
+      "after": {
+        "digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 1
+      },
+      "before": {
+        "digest": "97fc46b4f9f18796114371d1709321c03359faeae0945b4e07a4dc7897d53e0c",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 1
+      },
+      "capacity": 4,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 5,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 752,
+        "revisions": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    },
+    {
+      "after": {
+        "digest": "0e4c55c241e334a93f536ffa06a4fe52783f156d389bccc4a369db7932d3c1f8",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 0
+      },
+      "before": {
+        "digest": "0e4c55c241e334a93f536ffa06a4fe52783f156d389bccc4a369db7932d3c1f8",
+        "effects": 0,
+        "retirements": 0,
+        "revision": 0
+      },
+      "capacity": 4,
+      "expected_head": {
+        "digest": "4fc41bfd5dc4fc311501647206a20cfb94d9e425890852000bd6e3735acb8794",
+        "effects": 2,
+        "retirements": 2,
+        "revision": 6
+      },
+      "lag": 6,
+      "replayed": 0,
+      "retained": {
+        "command_bytes": 752,
+        "revisions": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "source_confirmations": [],
+      "status": "quarantined"
+    }
+  ],
+  "schema": "resumecert-bounded-redo-chain-v1"
+}

@@ -65,3 +65,5 @@ jobs:
         run: python scripts/run_authority_rollback.py --check results/authority_rollback_v1.json
       - name: Reproduce bounded witness redo and external effect control
         run: python scripts/run_witness_redo.py --check results/witness_redo_v1.json
+      - name: Reproduce bounded multi-revision replay and recovery interruptions
+        run: python scripts/run_authority_redo_chain.py --check results/authority_redo_chain_v1.json

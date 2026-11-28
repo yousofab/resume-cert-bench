@@ -52,6 +52,10 @@
 
 در [مطالعهٔ ۲۴ اجرایی](docs/research/WITNESS_REDO_V1_FA.md)، سامانه یک تغییرِ ثبت‌شده را از نسخهٔ قبلیِ دقیق بازسازی می‌کند. کنترل جداگانه مرز بازسازی محلی و ارسال دوباره به مقصد بیرونی را نشان می‌دهد.
 
+## بازیابی چند تغییر ثبت‌شده در شاهد
+
+در [مطالعهٔ بازیابی چندتغییری](docs/research/AUTHORITY_REDO_CHAIN_V1_FA.md)، پنجرهٔ چهار تغییر، چهار نسخه از شش نسخهٔ پشتیبان عقب‌افتاده را بازسازی کرد. آزمون‌های خرابی، برگشت کامل تراکنش بازاجرا و تلاش مجدد پس از خروج فرایند را بررسی می‌کنند.
+
 ## منابع و بازتولید
 
 - [طرح پژوهش](docs/research/RESEARCH_PROTOCOL_FA.md)
@@ -86,4 +90,5 @@ python scripts/run_terminal_evidence.py --check results/terminal_evidence_v1.jso
 python scripts/run_provider_authority.py --check results/provider_authority_v1.json
 python scripts/run_authority_rollback.py --check results/authority_rollback_v1.json
 python scripts/run_witness_redo.py --check results/witness_redo_v1.json
+python scripts/run_authority_redo_chain.py --check results/authority_redo_chain_v1.json
 ```
