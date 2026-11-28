@@ -32,6 +32,8 @@
 
 - [Witness redo](WITNESS_REDO_V1.md) compares digest-only admission with one-transition reconstruction in 24 runs and checks the separate external-effect boundary.
 
+- [Bounded witnessed redo](AUTHORITY_REDO_CHAIN_V1.md) compares backup lag against retention in 21 matched runs and verifies atomic replay in four interruption runs.
+
 ## Planned study
 
 | Stage | Work | Exit criterion |
